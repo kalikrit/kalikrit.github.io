@@ -81,7 +81,6 @@ textarea {
 }
 .info >p span {
     font-weight: bold;
-
 }
 #header h2 {color: whitesmoke}
 #header, #footer {
@@ -100,12 +99,25 @@ textarea {
     height: auto;
     padding: 50px 0;
 }
-#footer p {text-align: right}
 #footer a {color: white}
 
 
-
-
+/* Media */
+/* Small Devices, Tablets */
+@media only screen and (max-width : 1196px){
+    .info {width: 50%}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 988px){
+    .info {width: 95%}
+    #footer div {margin-right: 10px}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 490px) {
+    .info {width: 100%}
+    #header h2 {font-size: 20px}
+    .info p {font-size: 12px}
+}
 
 
 
