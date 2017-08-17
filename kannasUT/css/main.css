@@ -77,13 +77,31 @@ textarea {
     background-color: #b3d4fc;
     width: 40%;
     padding: 10px;
+    margin-left: 20px;
 }
 .info >p span {
     font-weight: bold;
 
 }
-
-
+#header h2 {color: whitesmoke}
+#header, #footer {
+    background: lightseagreen
+}
+#main {
+    background: url(../img/mostki.jpg) center no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#main .container {
+    background: ghostwhite;
+    opacity: .88;
+}
+#footer .container {
+    height: auto;
+    padding: 50px 0;
+}
+#footer p {text-align: right}
+#footer a {color: white}
 
 
 
