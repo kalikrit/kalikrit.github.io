@@ -163,7 +163,7 @@ let cities_chart = new Chart(CITIES, {
 			},
 			{label:['Санкт-Петербург: 39'],
 			backgroundColor:'#e4bf80',
-			data:[{'x':0.3,'y':0.6,'r':195}]
+			data:[{'x':0.3,'y':0.6,'r':39}]
 			},
 			{label:['Москва: 91'],
 			backgroundColor:'#74c493',
@@ -259,7 +259,7 @@ let cities_chart = new Chart(CITIES, {
 			},
 			{label:['Отрадное: 489'],
 			backgroundColor:'#9abf88',
-			data:[{'x':0.31684956969,'y':0.823459287064,'r':300}]
+			data:[{'x':0.31684956969,'y':0.823459287064,'r':200}]
 			},
 			{label:['Кировск: 1'],
 			backgroundColor:'#4e2472',
