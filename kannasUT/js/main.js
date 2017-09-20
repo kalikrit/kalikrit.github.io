@@ -165,9 +165,9 @@ let cities_chart = new Chart(CITIES, {
 			backgroundColor:'#e4bf80',
 			data:[{'x':0.3,'y':0.6,'r':195}]
 			},
-			{label:['Москва: 580'],
+			{label:['Москва: 91'],
 			backgroundColor:'#74c493',
-			data:[{'x':0.3,'y':0.3,'r':300}]
+			data:[{'x':0.3,'y':0.3,'r':91}]
 			},
 			{label:['Тихвин: 2'],
 			backgroundColor:'#5698c4',
@@ -256,6 +256,10 @@ let cities_chart = new Chart(CITIES, {
 			{label:['Норильск: 1'],
 			backgroundColor:'#51574a',
 			data:[{'x':0.899156443361,'y':0.746324863984,'r':5}]
+			},
+			{label:['Отрадное: 489'],
+			backgroundColor:'#9abf88',
+			data:[{'x':0.31684956969,'y':0.823459287064,'r':300}]
 			},
 			{label:['Кировск: 1'],
 			backgroundColor:'#4e2472',
