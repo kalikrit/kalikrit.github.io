@@ -258,8 +258,8 @@ let cities_chart = new Chart(CITIES, {
 			data:[{'x':0.899156443361,'y':0.746324863984,'r':5}]
 			},
 			{label:['Отрадное: 489'],
-			backgroundColor:'#9abf88',
-			data:[{'x':0.31684956969,'y':0.823459287064,'r':200}]
+			backgroundColor:'red',
+			data:[{'x':0.7,'y':0.3,'r':200}]
 			},
 			{label:['Кировск: 1'],
 			backgroundColor:'#4e2472',
