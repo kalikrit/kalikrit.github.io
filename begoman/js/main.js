@@ -676,7 +676,7 @@ let cities_chart = new Chart(CITIES, {
 			backgroundColor:'#e0598b',
 			data:[{'x':0.672675648133,'y':0.469104478778,'r':5}]
 			},
-			{label:['Караганда: 2'],
+			{label:['Караганда: 3'],
 			backgroundColor:'#e2975d',
 			data:[{'x':0.490466337653,'y':0.361617687223,'r':10}]
 			},
@@ -908,7 +908,7 @@ let cities_chart = new Chart(CITIES, {
 			backgroundColor:'#8e8c6d',
 			data:[{'x':0.668721189276,'y':0.285424217675,'r':5}]
 			},
-			{label:['Курган: 3'],
+			{label:['Курган: 4'],
 			backgroundColor:'#5698c4',
 			data:[{'x':0.669001519106,'y':0.864963830959,'r':15}]
 			},
@@ -1532,7 +1532,7 @@ let cities_chart = new Chart(CITIES, {
 			backgroundColor:'#7c9fb0',
 			data:[{'x':0.802955069499,'y':0.286632364291,'r':5}]
 			},
-			{label:['Рязань: 18'],
+			{label:['Рязань: 19'],
 			backgroundColor:'#e16552',
 			data:[{'x':0.617403016925,'y':0.783271613496,'r':90}]
 			},
@@ -2080,7 +2080,7 @@ let cities_chart = new Chart(CITIES, {
 			backgroundColor:'#e2975d',
 			data:[{'x':0.0422242543908,'y':0.214976158798,'r':5}]
 			},
-			{label:['Ярославль: 24'],
+			{label:['Ярославль: 27'],
 			backgroundColor:'#e2975d',
 			data:[{'x':0.41277988298,'y':0.0444340208248,'r':120}]
 			},
