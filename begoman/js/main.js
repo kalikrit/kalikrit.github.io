@@ -98,7 +98,7 @@ let cities_chart = new Chart(CITIES, {
 			},
 			{label:['Архангельск: 10'],
 			backgroundColor:'#8e8c6d',
-			data:[{'x':0.817102840742,'y':0.346560880256,'r':50}]
+			data:[{'x':0.6,'y':0.346560880256,'r':50}]
 			},
 			{label:['Астана: 3'],
 			backgroundColor:'#65387d',
@@ -110,7 +110,7 @@ let cities_chart = new Chart(CITIES, {
 			},
 			{label:['Атяшево: 1'],
 			backgroundColor:'#e279a3',
-			data:[{'x':0.206298104288,'y':0.00459966480734,'r':5}]
+			data:[{'x':0.2,'y':0.00459966480734,'r':5}]
 			},
 			{label:['Ахтубинск: 1'],
 			backgroundColor:'#e279a3',
@@ -1062,7 +1062,7 @@ let cities_chart = new Chart(CITIES, {
 			},
 			{label:['Мончегорск: 3'],
 			backgroundColor:'#65387d',
-			data:[{'x':0.489714662592,'y':0.118702175448,'r':15}]
+			data:[{'x':0.5,'y':0.15,'r':15}]
 			},
 			{label:['Морозовск: 1'],
 			backgroundColor:'#74c493',
@@ -1094,7 +1094,7 @@ let cities_chart = new Chart(CITIES, {
 			},
 			{label:['Набережные Челны: 14'],
 			backgroundColor:'#be5168',
-			data:[{'x':0.2,'y':0.975998771171,'r':70}]
+			data:[{'x':0.1,'y':0.83,'r':70}]
 			},
 			{label:['Навашино: 1'],
 			backgroundColor:'#74c493',
@@ -1238,11 +1238,11 @@ let cities_chart = new Chart(CITIES, {
 			},
 			{label:['Обнинск: 1'],
 			backgroundColor:'#e9d78e',
-			data:[{'x':0.969610747538,'y':0.218529452867,'r':5}]
+			data:[{'x':0.98,'y':0.218529452867,'r':5}]
 			},
 			{label:['Одесса: 7'],
 			backgroundColor:'#e279a3',
-			data:[{'x':0.156284199747,'y':0.997813109287,'r':35}]
+			data:[{'x':0.15,'y':0.99,'r':35}]
 			},
 			{label:['Одинцово: 1'],
 			backgroundColor:'#e0598b',
@@ -1674,7 +1674,7 @@ let cities_chart = new Chart(CITIES, {
 			},
 			{label:['Стерлитамак: 4'],
 			backgroundColor:'#51574a',
-			data:[{'x':0.327137060458,'y':0.997609125272,'r':20}]
+			data:[{'x':0.327137060458,'y':0.99,'r':20}]
 			},
 			{label:['Ступино: 1'],
 			backgroundColor:'#9abf88',
@@ -1858,7 +1858,7 @@ let cities_chart = new Chart(CITIES, {
 			},
 			{label:['Фрязино: 2'],
 			backgroundColor:'#993767',
-			data:[{'x':0.143009700985,'y':0.112504811807,'r':10}]
+			data:[{'x':0.1,'y':0.112504811807,'r':10}]
 			},
 			{label:['Хабаровск: 6'],
 			backgroundColor:'#4e2472',
