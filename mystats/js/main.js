@@ -40,8 +40,8 @@ let cities_chart = new Chart(RASH, {
 			{
 				label: "авто",
 				fill: true,
-				backgroundColor: "#be5168",
-				borderColor: "#be5100",
+				backgroundColor: "#993767",
+				borderColor: "#993700",
 				data: [1000,0,15829,8690,0,29460,5000,2501,1000]
 			},
 			{
