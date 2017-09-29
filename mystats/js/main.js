@@ -28,7 +28,7 @@ let cities_chart = new Chart(RASH, {
 				fill: true,
 				backgroundColor: "#51574a",
 				borderColor: "#515700",
-				data: [1235, 19386, 18472, 11562, 18064, 15973, 11431, 10466, 2998]
+				data: [1235, 19386, 18472, 11562, 18064, 15973, 11431, 10466, 5798]
 			},
 			{
 				label: "спорт",
@@ -49,14 +49,14 @@ let cities_chart = new Chart(RASH, {
 				fill: true,
 				backgroundColor: "#c94a53",
 				borderColor: "#c94a00",
-				data: [0,670,12028,2409,2159,11110,10959,3686,4053]
+				data: [0,670,12028,2409,2159,11110,10959,3686,4639]
 			},
 			{
 				label: "сладости",
 				fill: true,
 				backgroundColor: "#447c69",
 				borderColor: "#447c00",
-				data: [1931, 4784, 3612, 1471, 2717, 2793, 3391, 3041, 1078]
+				data: [1931, 4784, 3612, 1471, 2717, 2793, 3391, 3041, 1226]
 			}
 		]
 	}
