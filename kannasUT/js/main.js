@@ -16,7 +16,7 @@ let participants_chart = new Chart(PARTICIPANTS, {
 				fill: true,
 				backgroundColor: "rgba(75,192,192,.7)",
 				borderColor: "rgba(75,192,192,1)",
-				data: [24,24,39,13],
+				data: [25,27,42,14],
 				spanGaps: false,
 			},
 			{
@@ -24,7 +24,7 @@ let participants_chart = new Chart(PARTICIPANTS, {
 				fill: true,
 				backgroundColor: "rgba(75,75,192,.7)",
 				borderColor: "rgba(75,75,192,1)",
-				data: [18,10,1,2],
+				data: [21,10,3,2],
 				spanGaps: false,
 			}
 		]
@@ -45,6 +45,7 @@ let geography_chart = new Chart(GEOGRAPHY, {
     type: 'doughnut',
 	data: {
 		labels: [
+			"Апатиты",
 			"Ахтубинск",
 			"Благовещенск",
 			"Волгоград",
@@ -74,8 +75,9 @@ let geography_chart = new Chart(GEOGRAPHY, {
 			"Ярославль"
 			],
         datasets: [{
-            data: [1,1,1,2,4,1,1,1,1,1,18,1,2,1,1,1,2,2,1,80,1,1,1,2,1,1,1],
+            data: [1,1,1,1,2,4,1,1,1,1,1,18,1,2,1,1,1,2,2,1,92,1,1,1,2,1,1,1],
 			backgroundColor: [
+			"#4e2472",	
 			"#51574a",
 			"#447c69",
 			"#74c493",
@@ -105,6 +107,7 @@ let geography_chart = new Chart(GEOGRAPHY, {
 			"#be5168"
 		],
             hoverBackgroundColor: [
+				"#4e2400",
 				"#515700",
 				"#447c00",
 				"#74c400",
