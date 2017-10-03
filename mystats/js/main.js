@@ -42,7 +42,7 @@ let cities_chart = new Chart(RASH, {
 				fill: true,
 				backgroundColor: "#993767",
 				borderColor: "#993700",
-				data: [1000,0,15829,8690,0,29460,5000,2501,1000]
+				data: [1000,0,15829,8690,0,29460,5000,2501,2000]
 			},
 			{
 				label: "подарки",
