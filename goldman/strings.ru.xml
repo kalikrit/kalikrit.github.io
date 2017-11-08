@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+	<string id='text_intro'>Привет, искатель приключений! Правила игры очень просты: находи сокровища, води за нос монстров, открывай замки и избегай ловушек. Для управления используй клавиши со стрелками (вверх-вниз-влево-вправо) на клавиатуре. Успехов!</string>
+	<string id='text_register'>Чтобы получать достижения, смотреть статистику игроков и рейтинг - авторизуйся через facebook</string>
+	<string id='btn_continue_txt'>продолжить без всяких буков )</string>
+	<string id='label_score'>очки</string>
+	<string id='text_level_end'>Поздравляем!!! Уровень пройден!</string>
+	<string id='text_go'>Искатель приключений СЪЕДЕН ))</string>
+	<string id='act_try_again'>попробуйте снова</string>
+	<string id='act_levels'>к списку уровней</string>
+	<string id='act_exit'>выйти из игры</string>
+	<string id='btn_acvm_txt'>достижения</string>
+	<string id='btn_leadb_txt'>рейтинг игроков</string>
+	<string id='btn_add_score_txt'>запостить очки</string>
+	<string id='label_level'>уровень</string>
+	<string id='label_curr_level'>текущий уровень</string>
+</strings>

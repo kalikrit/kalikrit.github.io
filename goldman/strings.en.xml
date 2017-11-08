@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+	<string id='text_intro'>Hi, adventurer! The rules are very simple: collect treasures, evade monsters and traps, pick locks. To move use arrow keys (up-down-left-right). Have fun!</string>
+	<string id='text_register'>Authorize in facebook to save and share your results</string>
+	<string id='btn_continue_txt'>continue without logging in</string>
+	<string id='label_score'>score</string>
+	<string id='text_level_end'>Congratulations!!! Level cleared!</string>
+	<string id='text_go'>Goldman has been eaten ))</string>
+	<string id='act_try_again'>try again</string>
+	<string id='act_levels'>game levels</string>
+	<string id='act_exit'>exit the game</string>
+	<string id='btn_acvm_txt'>achievements</string>
+	<string id='btn_leadb_txt'>leaderboard</string>
+	<string id='btn_add_score_txt'>add to rating</string>
+	<string id='label_level'>level</string>
+	<string id='label_curr_level'>current level</string>
+</strings>
