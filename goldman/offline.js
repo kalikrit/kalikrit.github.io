@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1510176361,
+	"version": 1510351372,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -52,6 +52,7 @@
 		"loading-logo.png",
 		"strings.en.xml",
 		"strings.ru.xml",
+		"strings.es.xml",
 		"channel.html",
 		"pathfind.js"
 	]

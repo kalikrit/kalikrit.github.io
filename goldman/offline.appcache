@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1510176361
+#1510351372
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -51,6 +51,7 @@ icon-256.png
 loading-logo.png
 strings.en.xml
 strings.ru.xml
+strings.es.xml
 channel.html
 pathfind.js
 NETWORK:

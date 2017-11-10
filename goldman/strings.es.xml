@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+	<string id='text_intro'>Hola, aventurero! Las reglas del juego son muy simples: encuentra el tesoro, el vaciado de la nariz de monstruos, forzar cerraduras y evita las trampas. Para el control utilice las teclas de flecha (arriba-abajo-izquierda-derecha) en el teclado. El éxito!</string>
+	<string id='text_register'>Para conseguir logros, ver las estadísticas de los jugadores y el rating - autorizarse a través de facebook</string>
+	<string id='btn_continue_txt'>continuar sin autorización</string>
+	<string id='label_score'>puntos</string>
+	<string id='text_level_end'>Felicidades!!!!!! El nivel de la prueba!</string>
+	<string id='text_go'>Aventurero COMIDO ))</string>
+	<string id='act_try_again'>intente de nuevo</string>
+	<string id='act_levels'>a la lista de niveles</string>
+	<string id='act_exit'>salir</string>
+	<string id='btn_acvm_txt'>los logros</string>
+	<string id='btn_leadb_txt'>el rating de los jugadores</string>
+	<string id='btn_add_score_txt'>enviar puntos</string>
+	<string id='label_level'>el nivel</string>
+	<string id='label_curr_level'>el nivel actual</string>
+</strings>
