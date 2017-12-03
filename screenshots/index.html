@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Галерея</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/elastislide.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body ng-app="pictures" ng-controller="AppController">
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+		  <form class="navbar-form navbar-left" role="search">
+			<div class="form-group">
+              <input type="text" ng-model="search_string"
+                class="form-control" 
+                placeholder="поиск по хэштэгу" 
+                ng-keyup="search(search_string)">
+			</div>
+		  </form>
+		</div>
+	</nav>
+</header>
+<section class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 col-md-push-3">
+                <div class="row">
+					<div ng-if="pictures">
+                        <h4>{{search_string}}: {{found_num}}</h4>
+						<div ng-repeat="picture in pictures" class="col-xs-6 col-md-3">
+                            <div class="thumbnail pict">
+                                <img src="pictures/{{galname}}/{{picture.fname}}" alt="{{picture.fname}}">
+                                <div class="caption">
+                                    <span>{{picture.descr}}</span>
+                                    <div>
+                                        <span ng-repeat="ht in picture.htags" 
+                                            class="label label-success" 
+                                            ng-click="search_gal_tag(galname, ht)"
+                                            >
+                                            {{ht}}
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+				</div>				
+            </div>
+            <div class="col-md-3 col-md-pull-9">
+                <div class="sidebar">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-6">
+                            <div class="widget">
+                                <h3>Галереи</h3>
+                                <ul>
+                                    <li ng-repeat="gal in galleries">
+										<a href="#" ng-click="showGalery(gal.alias)">
+											{{gal.name}}
+										</a>
+									</li>
+                                </ul>
+                            </div><!-- /widget categories -->
+                        </div>
+                        <div class="col-md-12 col-xs-6">
+                            <div class="widget">
+                                <h4>хэштэги</h4>
+                                <ul>
+                                    <li ng-repeat="tag in galtags">
+                                        <a href="#" ng-click="search_gal_tag(galname, tag)">{{tag}}</a>
+                                    </li>
+                                </ul>
+                            </div><!-- /widget -->
+                        </div>
+                    </div>
+                </div><!-- /sidebar -->
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>&copy; 2017 kali-krit. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-8 text-right">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>		
+<script src="js/modernizr.custom.17475.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.elastislide.js"></script>
+</body>
+</html>
