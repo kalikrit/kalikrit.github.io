@@ -1985,7 +1985,7 @@ let images_json = {
 },
 {
 "fname":"zastavka_deti_halloween.jpg",
-"descr":"заставка: дети халоуин",
+"descr":"заставка: дети Хэллоуин",
 "htags":["заставки"],
 "created":"2017-10-26"
 },

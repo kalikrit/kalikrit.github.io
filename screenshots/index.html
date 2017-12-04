@@ -27,7 +27,9 @@
                 placeholder="поиск по хэштэгу" 
                 ng-keyup="search(search_string)">
 			</div>
-		  </form>
+          </form>
+          
+          <h4 class="navbar-text">{{search_string}}: {{found_num}}</h4>
 		</div>
 	</nav>
 </header>
@@ -37,8 +39,7 @@
             <div class="col-md-9 col-md-push-3">
                 <div class="row">
 					<div ng-if="pictures">
-                        <h4>{{search_string}}: {{found_num}}</h4>
-						<div ng-repeat="picture in pictures" class="col-xs-6 col-md-3">
+						<div ng-repeat="picture in pictures | orderBy:'-created'" class="col-xs-6 col-md-3">
                             <div class="thumbnail pict">
                                 <img src="pictures/{{galname}}/{{picture.fname}}" alt="{{picture.fname}}">
                                 <div class="caption">
