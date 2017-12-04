@@ -11,7 +11,6 @@ function AppController($scope){
     $scope.galname = null;
     $scope.found_num = 0;
     $scope.search_string = null;
-    $scope.galtags = [];
     $scope.galleries = [{"name":"Mystery Manor","alias":"mm"},{"name":"Mirrors of Albion","alias":"ma"}];
 	
 let images_json = {    
@@ -3095,16 +3094,8 @@ let images_json = {
 		let found = [];
 		$scope.galname = 'mm';
         $scope.search_string = "новинки";
-        $scope.galtags = [];
 		$scope.found_num = n;
         let pict_arr = images_json[$scope.galname];
-        pict_arr.forEach(function(item){
-            let tags = item.htags;
-            tags.forEach(function(tag){
-                if(!$scope.galtags.includes(tag))
-                    $scope.galtags.push(tag);
-            });
-        });
 		let today = Date.now();
 		let i = 0;
         pict_arr.forEach(function(item){
@@ -3117,8 +3108,22 @@ let images_json = {
         });
 		return found;
 	};
-	
-	$scope.pictures = $scope.get_latest(10);
+    
+    $scope.get_gallery_tags = function(alias) {
+        let pict_arr = images_json[alias];
+        let gtags = [];
+        pict_arr.forEach(function(item){
+            let tags = item.htags;
+            tags.forEach(function(tag){
+                if(!gtags.includes(tag))
+                    gtags.push(tag);
+            });
+        });
+        return gtags;
+    };
+
+    $scope.pictures = $scope.get_latest(10);
+    $scope.galtags = $scope.get_gallery_tags('mm');
     
     function get_gallery_name(alias){
         let name = null;
@@ -3130,17 +3135,9 @@ let images_json = {
 
     $scope.showGalery = function(alias){
         $scope.galname = alias;
-        $scope.galtags = [];
-        let found = images_json[alias];
-        found.forEach(function(item){
-            let tags = item.htags;
-            tags.forEach(function(tag){
-                if(!$scope.galtags.includes(tag))
-                    $scope.galtags.push(tag);
-            });
-        });
-		$scope.pictures = found;
-        $scope.found_num = found.length;
+        $scope.galtags = $scope.get_gallery_tags(alias);
+		$scope.pictures = images_json[alias];
+        $scope.found_num = $scope.pictures.length;
         $scope.search_string = get_gallery_name(alias);
     };
     
