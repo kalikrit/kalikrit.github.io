@@ -24,7 +24,8 @@
 			<div class="form-group">
               <input type="text" ng-model="search_string"
                 class="form-control" 
-                placeholder="поиск по хэштэгу" 
+                placeholder="поиск по хэштэгу"
+                ng-focus="search_string = ''; found_num = null"  
                 ng-keyup="search(search_string)">
 			</div>
           </form>
@@ -41,7 +42,7 @@
 					<div ng-if="pictures">
 						<div ng-repeat="picture in pictures | orderBy:'-created'" class="col-xs-6 col-md-3">
                             <div class="thumbnail pict">
-                                <img src="pictures/{{galname}}/{{picture.fname}}" alt="{{picture.fname}}">
+                                <img src="pictures/{{picture.fname}}" alt="{{picture.fname}}">
                                 <div class="caption">
                                     <span>{{picture.descr}}</span>
                                     <div>
