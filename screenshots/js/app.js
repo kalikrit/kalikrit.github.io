@@ -3094,17 +3094,25 @@ let images_json = {
 	$scope.get_latest = function(n) {
 		let found = [];
 		$scope.galname = 'mm';
-		$scope.search_string = "новинки";
+        $scope.search_string = "новинки";
+        $scope.galtags = [];
 		$scope.found_num = n;
         let pict_arr = images_json[$scope.galname];
+        pict_arr.forEach(function(item){
+            let tags = item.htags;
+            tags.forEach(function(tag){
+                if(!$scope.galtags.includes(tag))
+                    $scope.galtags.push(tag);
+            });
+        });
 		let today = Date.now();
 		let i = 0;
         pict_arr.forEach(function(item){
 			if(i >= n) return;
 			let ict = new Date(item.created);
             if((today - ict) <= 1339200000) {
-				found.push(item);
-				i++
+                found.push(item);  
+				i++;
 			}
         });
 		return found;
