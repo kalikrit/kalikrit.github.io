@@ -16,6 +16,84 @@ function AppController($scope){
 let images_json = {    
 "mm":[
 {
+"fname":"mm/animatorium_boy2.jpg",
+"descr" : "аниматориум: победа",
+"htags" : ["бой", "двор"],
+"created":"2017-12-04"
+}, 
+{
+"fname":"mm/animatorium_boy1.jpg",
+"descr" : "аниматориум: бой",
+"htags" : ["бой", "двор"],
+"created":"2017-12-04"
+},
+{
+"fname":"mm/room_animatorium.jpg",
+"descr" : "аниматориум",
+"htags" : ["комнаты", "двор"],
+"created":"2017-12-04"
+}, 
+{
+"fname":"mm/Leonard.jpg",
+"descr" : "Леонард",
+"htags" : ["персонажи"],
+"created":"2017-12-04"
+}, 
+{
+"fname":"mm/akvarius_boy2.jpg",
+"descr" : "Аквариус: победа",
+"htags" : ["бой", "двор"],
+"created":"2017-12-04"
+}, 
+{
+"fname":"mm/akvarius_boy1.jpg",
+"descr" : "Аквариус: бой",
+"htags" : ["бой", "двор"],
+"created":"2017-12-04"
+}, 
+{
+"fname":"mm/MilanNovak.jpg",
+"descr" : "Милан Новак",
+"htags" : ["персонажи"],
+"created":"2017-12-04"
+}, 
+{
+"fname":"mm/room_kripta.jpg",
+"descr" : "крипта",
+"htags" : ["комнаты","двор"],
+"created":"2017-12-04"
+}, 
+{
+"fname":"mm/usluzhlivaya_oficiantka.jpg",
+"descr" : "услужливая официантка",
+"htags" : ["двор"],
+"created":"2017-12-04"
+}, 
+{
+"fname":"mm/kot_poproshaika.jpg",
+"descr" : "кот-попрошайка",
+"htags" : ["двор"],
+"created":"2017-12-04"
+}, 
+{
+"fname":"mm/osminog.jpg",
+"descr" : "осьминог",
+"htags" : ["первый этаж"],
+"created":"2016-12-04"
+}, 
+{
+"fname":"mm/trenozhnik.jpg",
+"descr" : "треножник",
+"htags" : ["первый этаж"],
+"created":"2016-12-04"
+}, 
+{
+"fname":"mm/gus_sladkoezhka.jpg",
+"descr" : "гусь-сладкоежка",
+"htags" : ["первый этаж"],
+"created":"2016-12-04"
+},                                                                                                                                                                                                                                                                                                                          
+{
 "fname":"mm/adel.jpg",
 "descr" : "Адель",
 "htags" : ["персонажи"],
@@ -204,25 +282,25 @@ let images_json = {
 {
 "fname":"mm/club69_evri_beginning.jpg",
 "descr":"клуб 69: начало боя",
-"htags":["комнаты", "двор", "бой"],
+"htags":["двор", "бой"],
 "created":"2017-04-18"
 },
 {
 "fname":"mm/club69_evri_pobeda.jpg",
 "descr":"клуб 69: победа",
-"htags":["комнаты", "двор", "бой"],
+"htags":["двор", "бой"],
 "created":"2017-04-18"
 },
 {
 "fname":"mm/club69_evri_second.jpg",
 "descr":"клуб 69: вторая часть",
-"htags":["комнаты", "двор", "бой"],
+"htags":["двор", "бой"],
 "created":"2017-04-18"
 },
 {
 "fname":"mm/club69_evri_third.jpg",
 "descr":"клуб 69: третья часть",
-"htags":["комнаты", "двор", "бой"],
+"htags":["двор", "бой"],
 "created":"2017-04-18"
 },
 {
@@ -2610,8 +2688,8 @@ let images_json = {
 },
 {
 "fname":"ma/OttoFonStrudel.jpg",
-"descr":"",
-"htags":[],
+"descr":"Отто фон Штрудель",
+"htags":["персонажи"],
 "created":"2017-08-27"
 },
 {
