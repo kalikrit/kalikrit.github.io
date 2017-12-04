@@ -3123,7 +3123,8 @@ let images_json = {
     };
 
     $scope.pictures = $scope.get_latest(10);
-    $scope.galtags = $scope.get_gallery_tags('mm');
+    $scope.galname = 'mm';
+    $scope.galtags = $scope.get_gallery_tags($scope.galname);
     
     function get_gallery_name(alias){
         let name = null;
