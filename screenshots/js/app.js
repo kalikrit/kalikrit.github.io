@@ -2141,6 +2141,90 @@ let images_json = {
 }],
 "ma":[
 {
+"fname":"ma/zlobnyi_snegovik.jpg",
+"descr":"злобный снеговик",
+"htags":["рождество"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/ledyanoi_duh.jpg",
+"descr":"ледяной дух",
+"htags":["рождество"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/puding_malinovyi.jpg",
+"descr":"малиновый пудинг",
+"htags":["пудинги"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/KaiGerda.jpg",
+"descr":"Кай и Герда",
+"htags":["персонажи", "рождество"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/Schelkunchik.jpg",
+"descr":"Щелкунчик",
+"htags":["персонажи", "рождество"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/rozhdestv_pinguin.jpg",
+"descr":"рождественский пингвин",
+"htags":["рождество", "пингвины"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/pinguin_sladkoezhka.jpg",
+"descr":"пингвин-сладкоежка",
+"htags":["рождество", "пингвины"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/stoikiy_soldatik.jpg",
+"descr":"стойкий солдатик",
+"htags":["рождество"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/rozhdestv_elf.jpg",
+"descr":"рождественский эльф",
+"htags":["рождество"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/olen_santy.jpg",
+"descr":"олень Санты",
+"htags":["рождество"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/izyaschnaya_balerina.jpg",
+"descr":"изящная балерина",
+"htags":["рождество"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/puding_rozhdestv.jpg",
+"descr":"рождественский пудинг",
+"htags":["рождество", "пудинги"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/Santa.jpg",
+"descr":"Санта",
+"htags":["персонажи", "рождество"],
+"created":"2017-12-12"
+},
+{
+"fname":"ma/StevenFrost.jpg",
+"descr":"Стивен Фрост",
+"htags":["персонажи", "рождество"],
+"created":"2017-12-12"
+},
+{
 "fname":"ma/actrisa_faer_show.jpg",
 "descr":"актриса фаер-шоу",
 "htags":[],
@@ -2724,14 +2808,14 @@ let images_json = {
 },
 {
 "fname":"ma/PettiFlai.jpg",
-"descr":"",
-"htags":[],
+"descr":"Пэтти Флай",
+"htags":["хэллоуин"],
 "created":"2017-10-26"
 },
 {
 "fname":"ma/piligrim.jpg",
-"descr":"",
-"htags":[],
+"descr":"пилигрим",
+"htags":["день благодарения"],
 "created":"2017-11-21"
 },
 {
@@ -2760,56 +2844,56 @@ let images_json = {
 },
 {
 "fname":"ma/puding_apelsinovyi.jpg",
-"descr":"",
-"htags":[],
+"descr":"апельсиновый пудинг",
+"htags":["пудинги"],
 "created":"2017-05-07"
 },
 {
 "fname":"ma/puding_krepkii_apelsinovyi.jpg",
-"descr":"",
-"htags":[],
+"descr":"крепкий апельсиновый",
+"htags":["пудинги"],
 "created":"2017-08-25"
 },
 {
 "fname":"ma/puding_krepkii_ezhevichnyi.jpg",
-"descr":"",
-"htags":[],
+"descr":"крепкий ежевичнй",
+"htags":["пудинги"],
 "created":"2017-04-18"
 },
 {
 "fname":"ma/puding_krepkii_yablochnyi.jpg",
-"descr":"",
-"htags":[],
+"descr":"крепкий яблочный",
+"htags":["пудинги"],
 "created":"2017-08-25"
 },
 {
 "fname":"ma/puding_mylnyi.jpg",
-"descr":"",
-"htags":[],
+"descr":"мыльный пудинг",
+"htags":["пудинги"],
 "created":"2017-04-18"
 },
 {
 "fname":"ma/puding_sumoist.jpg",
-"descr":"",
-"htags":[],
+"descr":"пудинг-сумоист",
+"htags":["пудинги"],
 "created":"2017-04-18"
 },
 {
 "fname":"ma/puding_troinoy_ezhevichnyi.jpg",
-"descr":"",
-"htags":[],
+"descr":"тройной ежевичный",
+"htags":["пудинги"],
 "created":"2017-05-05"
 },
 {
 "fname":"ma/puding_tykvennyi.jpg",
-"descr":"",
-"htags":[],
+"descr":"тыквеный пудинг",
+"htags":["день благодарения", "пудинги"],
 "created":"2017-11-21"
 },
 {
 "fname":"ma/puding_zvezda.jpg",
-"descr":"",
-"htags":[],
+"descr":"пудинг-звезда",
+"htags":["пудинги"],
 "created":"2017-04-18"
 },
 {
@@ -2916,8 +3000,8 @@ let images_json = {
 },
 {
 "fname":"ma/shamanShikoba.jpg",
-"descr":"",
-"htags":[],
+"descr":"шаман Шикоба",
+"htags":["день благодарения"],
 "created":"2017-11-21"
 },
 {
@@ -3024,8 +3108,8 @@ let images_json = {
 },
 {
 "fname":"ma/tykvennyi_pirog.jpg",
-"descr":"",
-"htags":[],
+"descr":"тыквенный пирог",
+"htags":["день благодарения"],
 "created":"2017-11-21"
 },
 {
@@ -3060,8 +3144,8 @@ let images_json = {
 },
 {
 "fname":"ma/vlyublenyi_puding.jpg",
-"descr":"",
-"htags":[],
+"descr":"влюбленный пудинг",
+"htags":["пудинги"],
 "created":"2017-07-19"
 },
 {
@@ -3078,8 +3162,8 @@ let images_json = {
 },
 {
 "fname":"ma/yablochnyi_puding.jpg",
-"descr":"",
-"htags":[],
+"descr":"яблочный пудинг",
+"htags":["пудинги"],
 "created":"2017-04-19"
 },
 {
@@ -3120,8 +3204,8 @@ let images_json = {
 },
 {
 "fname":"ma/ZataivshiisyaTigr.jpg",
-"descr":"",
-"htags":[],
+"descr":"Затаившийся тигр",
+"htags":["день благодарения"],
 "created":"2017-11-21"
 },
 {
@@ -3132,8 +3216,8 @@ let images_json = {
 },
 {
 "fname":"ma/zharenaya_indeika.jpg",
-"descr":"",
-"htags":[],
+"descr":"жареная индейка",
+"htags":["день благодарения"],
 "created":"2017-11-21"
 },
 {
