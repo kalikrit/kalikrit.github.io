@@ -6,6 +6,11 @@ Chart.defaults.scale.ticks.beginAtZero = true;
 let ch_data = [
 	{
 		"date":"21 декабря",
+		"chm_name":"Татьяна Позднякова",
+		"km":8.4
+	},
+	{
+		"date":"21 декабря",
 		"chm_name":"Роберт Русланович",
 		"km":10
 	},
@@ -28,7 +33,7 @@ let ch_data = [
 		"date":"21 декабря",
 		"chm_name":"Леонид Дмитриев",
 		"km":5.03
-	},	
+	}
 ];
 
 let teams = [
