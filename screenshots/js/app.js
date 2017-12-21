@@ -2177,6 +2177,12 @@ let images_json = {
 }],
 "ma":[
 {
+"fname":"ma/zlopastnyi_brandashmyg.jpg",
+"descr":"злопастный Брандашмыг",
+"htags":["персонажи"],
+"created":"2017-12-21"
+},
+{
 "fname":"ma/Santa_.jpg",
 "descr":"Санта",
 "htags":["персонажи","рождество"],
