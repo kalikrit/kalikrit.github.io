@@ -6,6 +6,31 @@ Chart.defaults.scale.ticks.beginAtZero = true;
 let ch_data = [
 	{
 		"date":"21 декабря",
+		"chm_name":"Иван Тюрин",
+		"km":18.01
+	},
+	{
+		"date":"21 декабря",
+		"chm_name":"Лилия Галочкина",
+		"km":9.95
+	},
+	{
+		"date":"21 декабря",
+		"chm_name":"Екатерина Хасенова",
+		"km":15
+	},
+	{
+		"date":"21 декабря",
+		"chm_name":"Павел Дерябов",
+		"km":14.3
+	},
+	{
+		"date":"21 декабря",
+		"chm_name":"Роберт Русланович",
+		"km":10.05
+	},
+	{
+		"date":"21 декабря",
 		"chm_name":"Татьяна Позднякова",
 		"km":8.4
 	},
@@ -396,14 +421,12 @@ teams.forEach(function(team){
 	td.data = [0];
 	ch_data.forEach(function(cd){
 		if(is_inteam(cd.chm_name, team.alias)){
-			console.log(cd.km);
 			td.data[0] += cd.km;
-		} else 
-			console.log(cd.chm_name + " not in team " + team.alias)
+		}
 	});
+	td.data[0] = Math.round(td.data[0]);
 	data.push(td);
 });
-console.log(data);
 
 function is_inteam(name, team_alias){
 	let found = false;
