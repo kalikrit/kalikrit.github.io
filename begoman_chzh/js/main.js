@@ -6,6 +6,31 @@ Chart.defaults.scale.ticks.beginAtZero = true;
 let ch_data = [
 	{
 		"date":"21 декабря",
+		"chm_name":"Айгуль Гиндуллина",
+		"km":5.6
+	},
+	{
+		"date":"21 декабря",
+		"chm_name":"Регина Волкова",
+		"km":6
+	},
+	{
+		"date":"21 декабря",
+		"chm_name":"Zhanna Altworld",
+		"km":7.8
+	},
+	{
+		"date":"21 декабря",
+		"chm_name":"Ренат Садыков",
+		"km":10
+	},
+	{
+		"date":"21 декабря",
+		"chm_name":"Айдар Мугинов",
+		"km":20.5
+	},
+	{
+		"date":"21 декабря",
 		"chm_name":"Иван Тюрин",
 		"km":18.01
 	},
