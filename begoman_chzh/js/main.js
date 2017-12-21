@@ -76,6 +76,11 @@ let teams = [
 		"tn":"Три топора",
 		"alias":"treshachas",
 		"link": "https://vk.com/begoman?w=wall-128384986_133924"
+	},
+	{
+		"tn":"EasyEasy",
+		"alias":"easy",
+		"link": "https://vk.com/begoman?w=wall-128384986_134906"
 	}
 ];
 
@@ -317,33 +322,58 @@ let team_members = [
 	},
 	{
 		"name":"Владимир Масеев",
-		"team_alias":"",
+		"team_alias":"treshachas",
 		"vk":"https://vk.com/subsank"
 	},
 	{
 		"name":"Анастасия Рязанова",
-		"team_alias":"",
+		"team_alias":"treshachas",
 		"vk":"https://vk.com/anastasia.riazanova"
 	},
 	{
 		"name":"Михаил Полибин",
-		"team_alias":"",
+		"team_alias":"treshachas",
 		"vk":"https://vk.com/polibinm"
 	},
 	{
 		"name":"Сергей Лебовский",
-		"team_alias":"",
+		"team_alias":"treshachas",
 		"vk":"https://vk.com/id366111070"
 	},
 	{
 		"name":"Ольга Zenkowa",
-		"team_alias":"",
+		"team_alias":"treshachas",
 		"vk":"https://vk.com/id173093972"
 	},
 	{
 		"name":"Ирина Масанова",
-		"team_alias":"",
+		"team_alias":"treshachas",
 		"vk":"https://vk.com/nezwanka"
+	},
+	{
+		"name":"Александр Родионов",
+		"team_alias":"easy",
+		"vk":"https://vk.com/id223318742"
+	},
+	{
+		"name":"Сергей Самойленко",
+		"team_alias":"easy",
+		"vk":"https://vk.com/samoylenko1981"
+	},
+	{
+		"name":"Людмила Маракулина",
+		"team_alias":"easy",
+		"vk":"https://vk.com/id298550915"
+	},
+	{
+		"name":"Мишка Журавихин",
+		"team_alias":"easy",
+		"vk":"https://vk.com/my_surprise"
+	},
+	{
+		"name":"Феофан Дега",
+		"team_alias":"easy",
+		"vk":"https://vk.com/degaf"
 	}	
 ];
 
