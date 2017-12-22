@@ -1,10 +1,31 @@
 const TB = document.getElementById("team_bar");
 const TP = document.getElementById("team_pie");
+const total = document.getElementById("total");
 
 Chart.defaults.global.animation.duration = 3000;
 Chart.defaults.scale.ticks.beginAtZero = true;
 
 let ch_data = [
+	{
+		"date":"22 декабря",
+		"chm_name":"Феофан Дега",
+		"km":20.20
+	},
+	{
+		"date":"22 декабря",
+		"chm_name":"Екатерина Хасенова",
+		"km":9
+	},
+	{
+		"date":"22 декабря",
+		"chm_name":"Дарья Губарева",
+		"km":12.50
+	},
+	{
+		"date":"22 декабря",
+		"chm_name":"Николай Козлов",
+		"km":20.65
+	},
 	{
 		"date":"21 декабря",
 		"chm_name":"Женя Кучин",
@@ -241,6 +262,12 @@ let ch_data = [
 		"km":26.03
 	}
 ];
+
+let t = 0;
+ch_data.forEach(function(item){
+	t+=item.km;
+});
+total.innerHTML = Math.round(t)+" км";
 
 let teams = [
 	{
@@ -606,13 +633,14 @@ function makeBarData(){
 		td.backgroundColor = colors[i];
 		td.borderColor = "#74c400";
 		i++;
-		td.data = [0];
+		td.data = [0,0,0,0,0,0,0,0,0,0];
 		ch_data.forEach(function(cd){
 			if(is_inteam(cd.chm_name, team.alias)){
-				td.data[0] += cd.km;
+				didx = labels.indexOf(cd.date);
+				td.data[didx] += cd.km;
 			}
 		});
-		td.data[0] = Math.round(td.data[0]);
+		td.data[didx] = Math.round(td.data[didx]);
 		bardata.push(td);
 	});
 	return bardata;
@@ -656,24 +684,17 @@ teams.forEach(function(team){
 });
 
 function makePieData(){
-	let piedata = {};
-	piedata.data = [];
-	piedata.backgroundColor = [];
-	piedata.hoverBackgroundColor = [];
+	let piedata = [0,0,0,0,0,0,0,0,0,0];
 	let i = 0;
 	teams.forEach(function(team){
-		piedata.backgroundColor[i] = colors[i];
-		piedata.hoverBackgroundColor[i] = colors[i];
 		ch_data.forEach(function(cd){
 			if(is_inteam(cd.chm_name, team.alias))
-				piedata.data[i] += cd.km;
+				piedata[i] += cd.km;
 		});
-		piedata.data[i] = Math.round(piedata.data[i]);
+		piedata[i] = Math.round(piedata[i]);
 		i++;
 	});
-	let result = [];
-	result.push(piedata);
-	return result;
+	return piedata;
 };
 
 let teampie_chart = new Chart(TP, {
@@ -682,7 +703,7 @@ let teampie_chart = new Chart(TP, {
 		labels: pielabels,
 		datasets: [
 			{
-				data: [89.3, 57.07, 43.93, 69.9, 43.54, 42.6, 61.31, 74.4, 88.54, 35.8],
+				data: makePieData(),
 				backgroundColor: ["#51574a", "#447c69", "#74c493", "#8e8c6d", "#e4bf80", "#e9d78e", "#e2975d", "#f19670", "#e16552", "#c94a53"],
                 hoverBackgroundColor: ["#515700", "#447c00", "#74c400", "#8e8c00", "#e4bf00", "#e9d700", "#e29700", "#f19600", "#e16500", "#c94a00"]
 			}
