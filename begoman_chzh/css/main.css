@@ -113,13 +113,13 @@ textarea {
 
 /* Media */
 /* Small Devices, Tablets */
-@media only screen and (max-width : 988px){
+@media only screen and (max-width : 1300px){
     .info {width: 95%}
     #footer div {margin-right: 10px}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 490px) {
-    .info {width: 100%}
+    .info {width: 95%}
     #header h2 {font-size: 20px}
     .info p {font-size: 12px}
 }
