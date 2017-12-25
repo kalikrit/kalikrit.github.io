@@ -82,6 +82,7 @@ textarea {
 .info >p span {
     font-weight: bold;
 }
+#sm {display: none}
 #header h2 {color: whitesmoke}
 #header, #footer {
     background: lightseagreen
@@ -115,7 +116,10 @@ textarea {
 /* Small Devices, Tablets */
 @media only screen and (max-width : 1300px){
     .info {width: 95%}
-    #footer div {margin-right: 10px}
+    #footer div {
+		margin-right: 10px;
+		margin-left: 5px;
+	}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 490px) {
@@ -123,12 +127,11 @@ textarea {
     #header h2 {font-size: 20px}
     .info p {font-size: 12px}
 }
-
-
-
-
-
-
+@media only screen and (max-width : 450px) {
+	#team_bar_div, #team_pie_div {display: none}
+	#sm {display: block}
+	#footer p {font-size: smaller}
+}
 
 /* ==========================================================================
    Helper classes
