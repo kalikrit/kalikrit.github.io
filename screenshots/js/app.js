@@ -16,6 +16,66 @@ function AppController($scope){
 let images_json = {    
 "mm":[
 {
+"fname":"mm/room_kabinet_snegopad.jpg",
+"descr" : "кабинет: снегопад",
+"htags" : ["комнаты", "события"],
+"created":"2017-12-26"
+},
+{
+"fname":"mm/snytch_snezhinkin.jpg",
+"descr" : "снэтчин-снежинкин",
+"htags" : ["снэтчины", "события", "зимний двор"],
+"created":"2017-12-26"
+},
+{
+"fname":"mm/snytch_ldinkin.jpg",
+"descr" : "снэтчин-льдинкин",
+"htags" : ["снэтчины", "события", "зимний двор"],
+"created":"2017-12-26"
+},
+{
+"fname":"mm/elf_tvorec.jpg",
+"descr" : "эльф-творец",
+"htags" : ["события", "зимний двор", "эльфы"],
+"created":"2017-12-26"
+},
+{
+"fname":"mm/elf_malysh.jpg",
+"descr" : "эльф-малыш",
+"htags" : ["события", "зимний двор", "эльфы"],
+"created":"2017-12-26"
+},
+{
+"fname":"mm/elf_veselchak.jpg",
+"descr" : "эльф-весельчак",
+"htags" : ["события", "зимний двор", "эльфы"],
+"created":"2017-12-26"
+},
+{
+"fname":"mm/elf_hitrec.jpg",
+"descr" : "эльф-хитрец",
+"htags" : ["события", "зимний двор", "эльфы"],
+"created":"2017-12-26"
+},
+{
+"fname":"mm/elf_silach.jpg",
+"descr" : "эльф-силач",
+"htags" : ["события", "зимний двор", "эльфы"],
+"created":"2017-12-26"
+},
+{
+"fname":"mm/StefanLenc.jpg",
+"descr" : "Штефан Ленц",
+"htags" : ["персонажи"],
+"created":"2017-12-26"
+},
+{
+"fname":"mm/enot_rozhdestv.jpg",
+"descr" : "енот рождественский",
+"htags" : ["персонажи","события"],
+"created":"2017-12-22"
+},
+{
 "fname":"mm/Drosselmayer.jpg",
 "descr" : "Дроссельмайер",
 "htags" : ["персонажи"],
