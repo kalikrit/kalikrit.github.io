@@ -2237,6 +2237,12 @@ let images_json = {
 }],
 "ma":[
 {
+"fname":"ma/KrasnayaShapochka.jpg",
+"descr":"Красная Шапочка",
+"htags":["персонажи"],
+"created":"2017-12-29"
+},
+{
 "fname":"ma/zlopastnyi_brandashmyg.jpg",
 "descr":"злопастный Брандашмыг",
 "htags":["персонажи"],
