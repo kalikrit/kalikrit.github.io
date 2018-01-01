@@ -2237,6 +2237,36 @@ let images_json = {
 }],
 "ma":[
 {
+"fname":"ma/ustrica_krylataya.jpg",
+"descr":"крылатая устрица",
+"htags":["устрицы"],
+"created":"2018-01-01"
+},
+{
+"fname":"ma/ustrica_solidnaya.jpg",
+"descr":"солидная устрица",
+"htags":["устрицы"],
+"created":"2018-01-01"
+},
+{
+"fname":"ma/ustrica_crazy.jpg",
+"descr":"сумасшедшая устрица",
+"htags":["устрицы"],
+"created":"2018-01-01"
+},
+{
+"fname":"ma/ustrica_materaya_krlylataya.jpg",
+"descr":"матерая крылатая",
+"htags":["устрицы"],
+"created":"2018-01-01"
+},
+{
+"fname":"ma/dobrodushnyi_snegovik.jpg",
+"descr":"добродушный снеговик",
+"htags":["события"],
+"created":"2017-12-31"
+},
+{
 "fname":"ma/KrasnayaShapochka.jpg",
 "descr":"Красная Шапочка",
 "htags":["персонажи"],
@@ -2268,7 +2298,7 @@ let images_json = {
 },
 {
 "fname":"ma/ustrica_materaya_crazy.jpg",
-"descr":"устрица: матерая сумасшедшая",
+"descr":"матерая сумасшедшая",
 "htags":["устрицы"],
 "created":"2017-12-20"
 },
