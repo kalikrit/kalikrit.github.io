@@ -4,7 +4,7 @@ Chart.defaults.global.animation.duration = 3000;
 Chart.defaults.scale.ticks.beginAtZero = true;
 
 
-let cities_chart = new Chart(RASH, {
+let rashody_chart = new Chart(RASH, {
 	type: 'bar',
 	data: {
 		labels: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
