@@ -16,6 +16,228 @@ function AppController($scope){
 let images_json = {    
 "mm":[
 {
+"fname":"mm/bezumnaya_banshi.jpg",
+"descr" : "безумная баньши",
+"htags" : ["подвал"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/bratec_Grinn.jpg",
+"descr" : "братец Гринн",
+"htags" : ["персонажи"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/Brian_de_Scorpio.jpg",
+"descr" : "Бриан де Скорпио",
+"htags" : ["первый этаж"],
+"created":"2017-01-28"
+},
+{
+"fname":"mm/cenitel_cofe.jpg",
+"descr" : "ценитель кофе",
+"htags" : ["второй этаж", "снэтчины"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/chernyi_kotenok.jpg",
+"descr" : "черный котенок",
+"htags" : ["полнолуние"],
+"created":"2017-11-07"
+},
+{
+"fname":"mm/deMorte_pobeda.jpg",
+"descr" : "некромант Григорий де Морте: победа",
+"htags" : ["двор","бой"],
+"created":"2017-03-25"
+},
+{
+"fname":"mm/deMorte.jpg",
+"descr" : "некромант Григорий де Морте: бой",
+"htags" : ["двор","бой"],
+"created":"2017-03-25"
+},
+{
+"fname":"mm/feya_Drazhe.jpg",
+"descr" : "фея Драже",
+"htags" : ["двор","события"],
+"created":"2016-12-10"
+},
+{
+"fname":"mm/feya_Karamel.jpg",
+"descr" : "фея Карамель",
+"htags" : ["двор","события"],
+"created":"2016-12-10"
+},
+{
+"fname":"mm/grustnyi_snegovik.jpg",
+"descr" : "грустный снеговик",
+"htags" : ["двор","бой"],
+"created":"2017-01-21"
+},
+{
+"fname":"mm/KazimirStrigoy_pobeda.jpg",
+"descr" : "Казимир Стригой: победа",
+"htags" : ["двор", "бой"],
+"created":"2017-11-02"
+},
+{
+"fname":"mm/KazimirStrigoy_battle.jpg",
+"descr" : "Казимир Стригой: бой",
+"htags" : ["двор", "бой"],
+"created":"2017-11-02"
+},
+{
+"fname":"mm/laskovyi_fenek.jpg",
+"descr" : "ласковый фенек",
+"htags" : ["второй этаж"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/ledi_s_zontikom.jpg",
+"descr" : "леди с зонтиком",
+"htags" : ["снэтчины","второй этаж"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/masterskaya_igrushek.jpg",
+"descr" : "мастерская игрушек",
+"htags" : ["комнаты", "двор"],
+"created":"2017-01-21"
+},
+{
+"fname":"mm/potomstvennyi_parfumer.jpg",
+"descr" : "потомственный парфюмер",
+"htags" : ["второй этаж", "снэтчины"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/predannyi_senbernar.jpg",
+"descr" : "преданный сенбернар",
+"htags" : ["второй этаж", "собаки"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/pushistaya_zateynica.jpg",
+"descr" : "пушистая затейница",
+"htags" : ["второй этаж"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/rascvetayushii_talant.jpg",
+"descr" : "расцветающий талант",
+"htags" : ["второй этаж"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/Richard_Sagittarius.jpg",
+"descr" : "Ричард Сагиттариус",
+"htags" : ["персонажи", "первый этаж"],
+"created":"2017-01-28"
+},
+{
+"fname":"mm/room_club69snytch.jpg",
+"descr" : "клуб 69 снэтчинов",
+"htags" : ["комнаты", "двор"],
+"created":"2017-04-16"
+},
+{
+"fname":"mm/room_letayuschaya_tarelka.jpg",
+"descr" : "летающая тарелка",
+"htags" : ["комнаты"],
+"created":"2017-03-08"
+},
+{
+"fname":"mm/room_obitel_tenei.jpg",
+"descr" : "обитель теней",
+"htags" : ["комнаты", "события"],
+"created":"2017-11-07"
+},
+{
+"fname":"mm/room_ohotn_snytch.jpg",
+"descr" : "охотничья: снэтчины",
+"htags" : ["комнаты"],
+"created":"2016-09-05"
+},
+{
+"fname":"mm/room_zamokStrigoya.jpg",
+"descr" : "замок Стригоя",
+"htags" : ["комнаты", "двор"],
+"created":"2017-01-03"
+},
+{
+"fname":"mm/snezhnyi_domishko.jpg",
+"descr" : "снежный домишко",
+"htags" : ["комнаты","события"],
+"created":"2017-01-21"
+},
+{
+"fname":"mm/Van_helsing_bez_rubahi.jpg",
+"descr" : "клуб 69, ван Хелсинг: без рубахи",
+"htags" : ["бой","двор"],
+"created":"2017-04-16"
+},
+{
+"fname":"mm/Van_helsing_bez_maski.jpg",
+"descr" : "клуб 69, ван Хелсинг: без маски",
+"htags" : ["бой","двор"],
+"created":"2017-04-16"
+},
+{
+"fname":"mm/veselyi_snegovik.jpg",
+"descr" : "веселый снеговик",
+"htags" : ["двор","бой"],
+"created":"2017-01-21"
+},
+{
+"fname":"mm/VilliPampkin.jpg",
+"descr" : "Вилли Пампкин",
+"htags" : ["персонажи","двор"],
+"created":"2017-03-25"
+},
+{
+"fname":"mm/vozdushnyi_pirat.jpg",
+"descr" : "воздушный пират",
+"htags" : ["подвал"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/yunyi_pilot.jpg",
+"descr" : "юный пилот",
+"htags" : ["подвал","снэтчины"],
+"created":"2017-07-15"
+},
+{
+"fname":"mm/room_ledyanaya_citadel.jpg",
+"descr" : "ледяная цитадель",
+"htags" : ["двор", "бой"],
+"created":"2018-01-03"
+},
+{
+"fname":"mm/snezhnaya_koroleva_pobeda.jpg",
+"descr" : "снежная королева: победа",
+"htags" : ["двор", "бой"],
+"created":"2018-01-03"
+},
+{
+"fname":"mm/snezhnaya_koroleva_boy.jpg",
+"descr" : "снежная королева: бой",
+"htags" : ["двор", "бой"],
+"created":"2018-01-03"
+},
+{
+"fname":"mm/MargeriOwl.jpg",
+"descr" : "Маргери Оул",
+"htags" : ["персонажи"],
+"created":"2018-01-03"
+},
+{
+"fname":"mm/DmitriiMorozov.jpg",
+"descr" : "Дмитрий Морозов",
+"htags" : ["персонажи"],
+"created":"2018-01-03"
+},
+{
 "fname":"mm/room_logovo_volka.jpg",
 "descr" : "логово волка",
 "htags" : ["комнаты","подвал"],
