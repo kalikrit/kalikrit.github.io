@@ -16,6 +16,42 @@ function AppController($scope){
 let images_json = {    
 "mm":[
 {
+"fname":"mm/room_tykvennoe_pole.jpg",
+"descr" : "тыквенное поле",
+"htags" : ["двор","комнаты"],
+"created":"2018-01-06"
+},
+{
+"fname":"mm/VilliPampkin_boy2.jpg",
+"descr" : "Вилли Пампкин: победа",
+"htags" : ["двор","бой"],
+"created":"2018-01-06"
+},
+{
+"fname":"mm/VilliPampkin_boy1.jpg",
+"descr" : "Вилли Пампкин: бой",
+"htags" : ["двор","бой"],
+"created":"2018-01-06"
+},
+{
+"fname":"mm/Dzhoanna.jpg",
+"descr" : "Джоанна",
+"htags" : ["персонажи"],
+"created":"2018-01-06"
+},
+{
+"fname":"mm/dikii_sad_boy2.jpg",
+"descr" : "дикий сад: победа",
+"htags" : ["двор","бой"],
+"created":"2018-01-06"
+},
+{
+"fname":"mm/dikii_sad_boy1.jpg",
+"descr" : "дикий сад: бой",
+"htags" : ["двор","бой"],
+"created":"2018-01-06"
+},
+{
 "fname":"mm/Emili_boy2.jpg",
 "descr" : "Эмили: победа",
 "htags" : ["двор","бой"],
@@ -2518,6 +2554,24 @@ let images_json = {
 "created":"2016-11-26"
 }],
 "ma":[
+{
+"fname":"ma/administrator_otelya.jpg",
+"descr":"администратор отеля",
+"htags":["без тэга"],
+"created":"2018-01-06"
+},
+{
+"fname":"ma/room_vannaya.jpg",
+"descr":"ванная",
+"htags":["комнаты"],
+"created":"2018-01-06"
+},
+{
+"fname":"ma/vanna_boy.jpg",
+"descr":"ванная: бой",
+"htags":["бой","комнаты"],
+"created":"2018-01-06"
+},
 {
 "fname":"ma/ustrica_krylataya.jpg",
 "descr":"крылатая устрица",
