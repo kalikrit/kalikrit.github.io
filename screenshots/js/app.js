@@ -35,7 +35,7 @@ let images_json = {
 },
 {
 "fname":"mm/banshi.jpg",
-"descr" : "Банши",
+"descr" : "банши",
 "htags" : ["подвал"],
 "created":"2018-01-07"
 },
@@ -113,7 +113,7 @@ let images_json = {
 },
 {
 "fname":"mm/bezumnaya_banshi.jpg",
-"descr" : "безумная баньши",
+"descr" : "безумная банши",
 "htags" : ["подвал"],
 "created":"2017-07-15"
 },
