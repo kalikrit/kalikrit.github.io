@@ -16,28 +16,52 @@ function AppController($scope){
 let images_json = {    
 "mm":[
 {
+"fname":"mm/Bernardino.jpg",
+"descr" : "Бернардино",
+"htags" : ["персонажи"],
+"created":"2018-01-17"
+},
+{
+"fname":"mm/KiraSilverton.jpg",
+"descr" : "Кира Сильвертон",
+"htags" : ["персонажи"],
+"created":"2018-01-17"
+},
+{
+"fname":"mm/idoly.jpg",
+"descr" : "первый этаж в каменных идолах! довызывался! ))",
+"htags" : ["этажи","события"],
+"created":"2018-01-15"
+},
+{
+"fname":"mm/room_kanaly_venecii.jpg",
+"descr" : "каналы Венеции",
+"htags" : ["комнаты","портал"],
+"created":"2018-01-12"
+},
+{
 "fname":"mm/ninja_agronom_san.jpg",
 "descr" : "Агроном-сан",
 "htags" : ["садовые ниндзя"],
-"created":"2018-01-12"
+"created":"2018-01-11"
 },
 {
 "fname":"mm/ninja_sadovnik_giri.jpg",
 "descr" : "Садовник-гири",
 "htags" : ["садовые ниндзя"],
-"created":"2018-01-12"
+"created":"2018-01-11"
 },
 {
 "fname":"mm/ninja_cvetochnica_tyan.jpg",
 "descr" : "Цветочница-тян",
 "htags" : ["садовые ниндзя"],
-"created":"2018-01-12"
+"created":"2018-01-11"
 },
 {
 "fname":"mm/ninja_dachnik_kun.jpg",
 "descr" : "Дачник-кун",
 "htags" : ["садовые ниндзя"],
-"created":"2018-01-12"
+"created":"2018-01-11"
 },
 {
 "fname":"mm/room_snezhnyi_shar.jpg",
@@ -2602,6 +2626,18 @@ let images_json = {
 "created":"2016-11-26"
 }],
 "ma":[
+{
+"fname":"ma/Lorri.jpg",
+"descr":"Лорри",
+"htags":["персонажи"],
+"created":"2018-01-18"
+},
+{
+"fname":"ma/room_orang.jpg",
+"descr":"оранжерея",
+"htags":["комнаты"],
+"created":"2018-01-18"
+},
 {
 "fname":"ma/administrator_otelya.jpg",
 "descr":"администратор отеля",
