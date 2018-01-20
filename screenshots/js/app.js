@@ -3006,7 +3006,7 @@ let images_json = {
 },
 {
 "fname":"ma/gremlin_privedenie.jpg",
-"descr":"гремлин-приведение",
+"descr":"гремлин-привидение",
 "htags":["гремлины"],
 "created":"2017-10-16"
 },
@@ -3834,22 +3834,27 @@ let images_json = {
 }
 ]};	
 
+	/*
+		возвращает картинки за последние n дней в двух галереях
+		@n int
+		@return Array found
+	*/
 	$scope.get_latest = function(n) {
 		let found = [];
         $scope.search_string = "новинки";
-		$scope.found_num = n;
-        let pict_arr = images_json['mm'];
-        pict_arr.concat(images_json['ma']);
+		let pict_arr = (images_json['ma']).concat(images_json['mm']);
 		let today = Date.now();
 		let i = 0;
         pict_arr.forEach(function(item){
-			if(i >= n) return;
+			if(i >= n*3) return;
 			let ict = new Date(item.created);
-            if((today - ict) <= 1339200000) {
+			// 86400000 - одни сутки
+            if((today - ict) <= 86400000*n) {
                 found.push(item);  
 				i++;
 			}
         });
+		$scope.found_num = found.length;
 		return found;
 	};
     
@@ -3898,11 +3903,11 @@ let images_json = {
     };
     
     $scope.search = function(string){
+		string = string.toLowerCase();
         let found = [];
-        let pict_arr = images_json['mm'];
-        pict_arr.concat(images_json['ma']);
+        let pict_arr = (images_json['mm']).concat(images_json['ma']);
         pict_arr.forEach(function(item){
-            if(item.htags.includes(string) || item.descr.includes(string))
+            if(item.htags.includes(string) || item.descr.toLowerCase().includes(string))
             found.push(item);
         });
         $scope.pictures = found;
