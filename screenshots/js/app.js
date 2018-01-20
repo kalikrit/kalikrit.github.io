@@ -3836,7 +3836,7 @@ let images_json = {
 
 	/*
 		возвращает картинки за последние n дней в двух галереях
-		@n int
+		@arg int n - кол-во дней
 		@return Array found
 	*/
 	$scope.get_latest = function(n) {
@@ -3846,7 +3846,7 @@ let images_json = {
 		let today = Date.now();
 		let i = 0;
         pict_arr.forEach(function(item){
-			if(i >= n*3) return;
+			if(i >= n*3) return; // останавливаем поиск когда нашли больше, чем n*3 картинок
 			let ict = new Date(item.created);
 			// 86400000 - одни сутки
             if((today - ict) <= 86400000*n) {
@@ -3854,10 +3854,15 @@ let images_json = {
 				i++;
 			}
         });
-		$scope.found_num = found.length;
+		$scope.found_num = found.length; // устанавливаем found_num в длину массива found
 		return found;
 	};
     
+	/*
+		возвращает тэги в галерее по ее alias
+		@arg String alias - alias галерии
+		@return Array gtags
+	*/
     $scope.get_gallery_tags = function(alias) {
         let pict_arr = images_json[alias];
         let gtags = [];
@@ -3875,6 +3880,11 @@ let images_json = {
     $scope.galname = 'mm';
     $scope.galtags = $scope.get_gallery_tags($scope.galname);
     
+	/*
+		возвращает название галерее по ее alias
+		@arg String alias - alias галереи
+		@return String name
+	*/
     function get_gallery_name(alias){
         let name = null;
         $scope.galleries.forEach(function(item){
@@ -3883,6 +3893,11 @@ let images_json = {
         return name;
     };
 
+	/*
+		возвращает галерию по ее alias
+		@arg String alias - alias галерии
+		устанавливает $scope.galname, $scope.pictures, $scope.galtags, $scope.found_num
+	*/
     $scope.showGalery = function(alias){
         $scope.galname = alias;
         $scope.galtags = $scope.get_gallery_tags(alias);
@@ -3891,6 +3906,12 @@ let images_json = {
         $scope.search_string = get_gallery_name(alias);
     };
     
+	/*
+		ищет картинки в галерее по тэгу
+		@arg String galname - alias галереи
+		@arg String ht - тэг
+		устанавливает $scope.pictures, $scope.found_num, $scope.search_string
+	*/
     $scope.search_gal_tag = function(galname, ht){
         let found = [];
         let pict_arr = images_json[galname];
@@ -3902,6 +3923,11 @@ let images_json = {
         $scope.search_string = ht;
     };
     
+	/*
+		глобальный поиск по галереям по строке
+		@arg String string - строка поиска
+		устанавливает $scope.pictures, $scope.found_num, $scope.search_string
+	*/
     $scope.search = function(string){
 		string = string.toLowerCase();
         let found = [];
