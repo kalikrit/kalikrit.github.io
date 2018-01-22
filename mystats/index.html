@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" src="css/dygraph.min.css" />
+		<script src="js/dygraph.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -22,12 +24,15 @@
         <div class="container">
             <div class="row clearfix">
                 <div class="col-md-12">
-                    <h2>Расходы по категориям за 2017 год</h2>
+                    <h2>Расходы по категориям за 2018 год</h2>
                 </div>
             </div>
             <div class="row clearfix">
                 <canvas id="rash" width="400" height="200"></canvas>
             </div>
+			<div class="row clearfix">
+				<div class="col-md-12" id="kurse"></div>
+			</div>
         </div>
     </section>
     <section id="footer">
@@ -41,5 +46,6 @@
     </section>
         <script src="js/Chart.min.js"></script>
         <script src="js/main.js"></script>
+		<script src="js/kurs_e.js"></script>
     </body>
 </html>

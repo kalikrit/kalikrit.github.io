@@ -110,6 +110,10 @@ textarea {
     padding: 5px;
     color:#054c06;
 }
+#kurse {
+	height:400px;
+	margin: 50px auto;
+}
 
 /* Media */
 /* Small Devices, Tablets */
