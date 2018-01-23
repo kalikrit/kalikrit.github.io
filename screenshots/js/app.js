@@ -2627,6 +2627,18 @@ let images_json = {
 }],
 "ma":[
 {
+"fname":"ma/robot_razrushitel.jpg",
+"descr":"робот-разрушитель",
+"htags":["роботы"],
+"created":"2018-01-23"
+},
+{
+"fname":"ma/robot_materyi_parovoi.jpg",
+"descr":"матерый паровой робот",
+"htags":["роботы"],
+"created":"2018-01-23"
+},
+{
 "fname":"ma/Lorri.jpg",
 "descr":"Лорри",
 "htags":["персонажи"],
@@ -2653,7 +2665,7 @@ let images_json = {
 {
 "fname":"ma/vanna_boy.jpg",
 "descr":"ванная: бой",
-"htags":["бой","комнаты"],
+"htags":["бой"],
 "created":"2018-01-06"
 },
 {
@@ -2707,7 +2719,7 @@ let images_json = {
 {
 "fname":"ma/snezhnaya_koroleva.jpg",
 "descr":"снежная королева",
-"htags":["персонажи","рождество"],
+"htags":["бой","рождество"],
 "created":"2017-12-20"
 },
 {
@@ -3359,9 +3371,9 @@ let images_json = {
 "created":"2017-08-27"
 },
 {
-"fname":"ma/parovoi_robot.jpg",
-"descr":"",
-"htags":[],
+"fname":"ma/robot_parovoi.jpg",
+"descr":"паровой робот",
+"htags":["роботы"],
 "created":"2017-05-07"
 },
 {
@@ -3480,104 +3492,104 @@ let images_json = {
 },
 {
 "fname":"ma/pugalo.jpg",
-"descr":"",
-"htags":[],
+"descr":"пугало",
+"htags":["без тэга"],
 "created":"2017-06-15"
 },
 {
 "fname":"ma/razboinica_balovnica.jpg",
-"descr":"",
-"htags":[],
+"descr":"разбойница-баловница",
+"htags":["гремлины"],
 "created":"2017-04-19"
 },
 {
 "fname":"ma/robot_remontnik.jpg",
-"descr":"",
-"htags":[],
+"descr":"робот-ремонтник",
+"htags":["роботы"],
 "created":"2017-05-27"
 },
 {
 "fname":"ma/robot_sanitar.jpg",
-"descr":"",
-"htags":[],
+"descr":"робот-санитар",
+"htags":["роботы"],
 "created":"2017-05-07"
 },
 {
 "fname":"ma/room_biblioteka.jpg",
-"descr":"",
-"htags":[],
+"descr":"библиотека",
+"htags":["комнаты"],
 "created":"2017-10-17"
 },
 {
 "fname":"ma/room_buduar.jpg",
-"descr":"",
-"htags":[],
+"descr":"будуар",
+"htags":["комнаты"],
 "created":"2017-05-04"
 },
 {
 "fname":"ma/room_derizhabl.jpg",
-"descr":"",
-"htags":[],
+"descr":"дерижабль",
+"htags":["комнаты"],
 "created":"2017-05-24"
 },
 {
 "fname":"ma/room_dom_detektiva.jpg",
-"descr":"",
-"htags":[],
+"descr":"дом детектива",
+"htags":["комнаты"],
 "created":"2017-04-17"
 },
 {
 "fname":"ma/room_komnata_Alisy.jpg",
-"descr":"",
-"htags":[],
+"descr":"комната Алисы",
+"htags":["комнаты"],
 "created":"2017-04-17"
 },
 {
 "fname":"ma/room_konditerskaya.jpg",
-"descr":"",
-"htags":[],
+"descr":"кондитерская",
+"htags":["комнаты"],
 "created":"2017-04-19"
 },
 {
 "fname":"ma/room_parikmaherskaya.jpg",
-"descr":"",
-"htags":[],
+"descr":"парикмахерская",
+"htags":["комнаты"],
 "created":"2017-08-17"
 },
 {
 "fname":"ma/room_pod_mostom.jpg",
-"descr":"",
-"htags":[],
+"descr":"под мостом",
+"htags":["комнаты"],
 "created":"2017-05-18"
 },
 {
 "fname":"ma/room_port.jpg",
-"descr":"",
-"htags":[],
+"descr":"порт",
+"htags":["комнаты"],
 "created":"2017-09-26"
 },
 {
 "fname":"ma/room_sekretnyi_otdel.jpg",
-"descr":"",
-"htags":[],
+"descr":"секретный отдел",
+"htags":["комнаты"],
 "created":"2017-04-17"
 },
 {
 "fname":"ma/room_zadvorki.jpg",
-"descr":"",
-"htags":[],
+"descr":"задворки",
+"htags":["комнаты"],
 "created":"2017-04-17"
 },
 {
 "fname":"ma/santehnik.jpg",
-"descr":"",
-"htags":[],
+"descr":"сантехник",
+"htags":["без тэга"],
 "created":"2017-04-18"
 },
 {
 "fname":"ma/sem_gnomov.jpg",
-"descr":"",
-"htags":[],
+"descr":"семь гномов",
+"htags":["без тэга"],
 "created":"2017-05-12"
 },
 {
@@ -3588,86 +3600,86 @@ let images_json = {
 },
 {
 "fname":"ma/shveicar.jpg",
-"descr":"",
-"htags":[],
+"descr":"швейцар",
+"htags":["без тэга"],
 "created":"2017-08-10"
 },
 {
 "fname":"ma/sinyaya_gusenica.jpg",
-"descr":"",
-"htags":[],
+"descr":"синяя гусеница",
+"htags":["без тэга"],
 "created":"2017-05-05"
 },
 {
 "fname":"ma/sladkoezhka.jpg",
-"descr":"",
-"htags":[],
+"descr":"сладкоежка",
+"htags":["без тэга"],
 "created":"2017-10-16"
 },
 {
 "fname":"ma/slonenok_topiarii.jpg",
-"descr":"",
-"htags":[],
+"descr":"слоненок Топиарий",
+"htags":["без тэга"],
 "created":"2017-04-18"
 },
 {
 "fname":"ma/smotritel_za_voronami.jpg",
-"descr":"",
-"htags":[],
+"descr":"смотритель за воронами",
+"htags":["гремлины"],
 "created":"2017-05-07"
 },
 {
 "fname":"ma/solidnaya_ustrica.jpg",
-"descr":"",
-"htags":[],
+"descr":"солидная устрица",
+"htags":["устрицы"],
 "created":"2017-04-18"
 },
 {
 "fname":"ma/strelochnik.jpg",
-"descr":"",
-"htags":[],
+"descr":"стрелочник",
+"htags":["без тэга"],
 "created":"2017-04-18"
 },
 {
 "fname":"ma/sudia_recordium.jpg",
-"descr":"",
-"htags":[],
+"descr":"судья Рекордиум",
+"htags":["без тэга"],
 "created":"2017-07-19"
 },
 {
 "fname":"ma/sukkub.jpg",
-"descr":"",
-"htags":[],
+"descr":"суккуб",
+"htags":["без тэга"],
 "created":"2017-08-10"
 },
 {
 "fname":"ma/sumasschedshaya_ustrica.jpg",
-"descr":"",
-"htags":[],
+"descr":"сумасшедшая устрица",
+"htags":["устрицы"],
 "created":"2017-05-05"
 },
 {
 "fname":"ma/TainayaSova.jpg",
-"descr":"",
-"htags":[],
+"descr":"тайная сова",
+"htags":["персонажи"],
 "created":"2017-04-17"
 },
 {
 "fname":"ma/tancovschica_samby.jpg",
-"descr":"",
-"htags":[],
+"descr":"танцовщица самбы",
+"htags":["карнавал"],
 "created":"2017-05-26"
 },
 {
 "fname":"ma/temnyi_druid.jpg",
-"descr":"",
-"htags":[],
+"descr":"темный друид",
+"htags":["без тэга"],
 "created":"2017-10-28"
 },
 {
 "fname":"ma/troika_chervei.jpg",
-"descr":"",
-"htags":[],
+"descr":"тройка червей",
+"htags":["карты"],
 "created":"2017-08-10"
 },
 {
@@ -3678,14 +3690,14 @@ let images_json = {
 },
 {
 "fname":"ma/truslivyi_malchischka.jpg",
-"descr":"",
-"htags":[],
+"descr":"Труляля и Траляля",
+"htags":["персонажи"],
 "created":"2017-06-15"
 },
 {
 "fname":"ma/turistka.jpg",
-"descr":"",
-"htags":[],
+"descr":"туристка",
+"htags":["без тэга"],
 "created":"2017-04-17"
 },
 {
@@ -3696,32 +3708,32 @@ let images_json = {
 },
 {
 "fname":"ma/uchitel_sysknogo_dela.jpg",
-"descr":"",
-"htags":[],
+"descr":"учитель сыскного дела",
+"htags":["без тэга"],
 "created":"2017-08-21"
 },
 {
 "fname":"ma/ustrica_torgovka.jpg",
-"descr":"",
-"htags":[],
+"descr":"устрица торговка",
+"htags":["устрицы"],
 "created":"2017-07-20"
 },
 {
 "fname":"ma/vampir.jpg",
-"descr":"",
-"htags":[],
+"descr":"вампир",
+"htags":["без тэга"],
 "created":"2017-08-10"
 },
 {
 "fname":"ma/vedma.jpg",
-"descr":"",
-"htags":[],
+"descr":"ведьма",
+"htags":["без тэга"],
 "created":"2017-06-19"
 },
 {
 "fname":"ma/virtuoznyi_saksofonist.jpg",
-"descr":"",
-"htags":[],
+"descr":"виртуозный саксофонист",
+"htags":["без тэга"],
 "created":"2017-07-19"
 },
 {
@@ -3732,14 +3744,14 @@ let images_json = {
 },
 {
 "fname":"ma/vozhd_lemurov.jpg",
-"descr":"",
-"htags":[],
+"descr":"вождь лемуров",
+"htags":["без тэга"],
 "created":"2017-05-25"
 },
 {
 "fname":"ma/vzlomschik_s_gvozdoderom.jpg",
-"descr":"",
-"htags":[],
+"descr":"взломщик с гвоздодером",
+"htags":["грабители"],
 "created":"2017-04-18"
 },
 {
@@ -3750,38 +3762,38 @@ let images_json = {
 },
 {
 "fname":"ma/yaryi_patriot.jpg",
-"descr":"",
-"htags":[],
+"descr":"ярый патриот",
+"htags":["события"],
 "created":"2017-06-28"
 },
 {
 "fname":"ma/yunaya_hudozhnica.jpg",
-"descr":"",
-"htags":[],
+"descr":"юная художница",
+"htags":["без тэга"],
 "created":"2017-05-12"
 },
 {
 "fname":"ma/yunga.jpg",
-"descr":"",
-"htags":[],
+"descr":"юнга",
+"htags":["без тэга"],
 "created":"2017-04-18"
 },
 {
 "fname":"ma/zabiyaka_velikan.jpg",
-"descr":"",
-"htags":[],
+"descr":"забияка великан",
+"htags":["без тэга"],
 "created":"2017-08-10"
 },
 {
 "fname":"ma/zagadochnaya_dama.jpg",
-"descr":"",
-"htags":[],
+"descr":"загадочная дама",
+"htags":["без тэга"],
 "created":"2017-08-10"
 },
 {
 "fname":"ma/zast_Alisa.jpg",
-"descr":"",
-"htags":[],
+"descr":"заставка Алиса",
+"htags":["заставки"],
 "created":"2017-04-17"
 },
 {
@@ -3792,8 +3804,8 @@ let images_json = {
 },
 {
 "fname":"ma/zayadlyi_puteshestvenniki.jpg",
-"descr":"",
-"htags":[],
+"descr":"заядлые путешественники",
+"htags":["без тэга"],
 "created":"2017-06-08"
 },
 {
@@ -3804,32 +3816,32 @@ let images_json = {
 },
 {
 "fname":"ma/zhenih.jpg",
-"descr":"",
-"htags":[],
+"descr":"жених",
+"htags":["события"],
 "created":"2017-05-12"
 },
 {
 "fname":"ma/zloveschee_derevo.jpg",
-"descr":"",
-"htags":[],
+"descr":"зловещее дерево",
+"htags":["бой"],
 "created":"2017-10-16"
 },
 {
 "fname":"ma/znamenitaya_floristka.jpg",
-"descr":"",
-"htags":[],
+"descr":"знаменитая флористка",
+"htags":["без тэга"],
 "created":"2017-05-12"
 },
 {
 "fname":"ma/zolotoi_grifon.jpg",
-"descr":"",
-"htags":[],
+"descr":"золотой грифон",
+"htags":["без тэга"],
 "created":"2017-04-18"
 },
 {
 "fname":"ma/zubnaya_feya.jpg",
-"descr":"",
-"htags":[],
+"descr":"зубная фея",
+"htags":["без тэга"],
 "created":"2017-04-18"
 }
 ]};	
