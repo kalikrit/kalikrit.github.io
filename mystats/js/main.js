@@ -1,5 +1,6 @@
 const RASH = document.getElementById("rash");
 const RP = document.getElementById("rash_pie");
+const SRM = document.getElementById("sum_rash_month");
 
 Chart.defaults.global.animation.duration = 3000;
 Chart.defaults.scale.ticks.beginAtZero = true;
@@ -37,7 +38,7 @@ let RI = [
 },
 {
 	'ilabel': "обеды",
-	'ipm':[877.99,429.79],	
+	'ipm':[926.13,429.79],	
 	'ibgc':"#FFCC00"
 },
 {
@@ -62,7 +63,7 @@ let RI = [
 },
 {
 	'ilabel': "продукты",
-	'ipm':[9964.09,5149.21],	
+	'ipm':[10233.16,5149.21],	
 	'ibgc':"#339999"
 },
 {
@@ -114,6 +115,28 @@ let rashody_chart = new Chart(RASH, {
 		labels: ["Январь","Февраль"],//"Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
 		datasets: DS
 	}
+});
+
+let data = [];
+labels = ["Январь","Февраль", "Март", "Апрель", "Май"];//, "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
+for(var i=0; i < labels.length; i++){
+	let sum = 0;
+	RI.forEach(function(o){
+		sum += o.ipm[i];
+	});
+	data.push(Math.round(sum));
+}
+
+let sum_rashody_month = new Chart(SRM, {
+	type: 'bar',
+	data: {
+		labels: labels,
+		datasets: [{
+			label: '2018 год',
+			data: data,
+			backgroundColor: ["#6633FF","#f19670"]
+		}]
+	}	
 });
 
 let pielabels = [];
