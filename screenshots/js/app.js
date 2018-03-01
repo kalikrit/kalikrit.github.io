@@ -2723,6 +2723,12 @@ let images_json = {
 }],
 "ma":[
 {
+"fname":"ma/Salvador.jpg",
+"descr":"Сальвадор",
+"htags":["персонажи"],
+"created":"2018-02-28"
+},
+{
 "fname":"ma/robot_razrushitel.jpg",
 "descr":"робот-разрушитель",
 "htags":["роботы"],
