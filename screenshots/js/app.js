@@ -16,6 +16,18 @@ function AppController($scope){
 let images_json = {    
 "mm":[
 {
+"fname":"mm/piramida_boy_pobeda.jpg",
+"descr" : "пирамида: победа",
+"htags" : ["двор","бой"],
+"created":"2018-03-10"
+},
+{
+"fname":"mm/room_piramida.jpg",
+"descr" : "пирамида",
+"htags" : ["комнаты","двор"],
+"created":"2018-03-10"
+},
+{
 "fname":"mm/stranstvuyuschii_rycar.jpg",
 "descr" : "странствующий рыцарь",
 "htags" : ["двор"],
