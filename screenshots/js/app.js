@@ -2753,6 +2753,24 @@ let images_json = {
 }],
 "ma":[
 {
+"fname":"ma/klurikon.jpg",
+"descr":"Клурикон",
+"htags":["без тэга"],
+"created":"2018-03-07"
+},
+{
+"fname":"ma/leprekonistyi_zmei.jpg",
+"descr":"лепреконистый змей",
+"htags":["без тэга"],
+"created":"2018-03-07"
+},
+{
+"fname":"ma/Leprekonester.jpg",
+"descr":"Лепреконнистер",
+"htags":["персонажи"],
+"created":"2018-03-07"
+},
+{
 "fname":"ma/Salvador.jpg",
 "descr":"Сальвадор",
 "htags":["персонажи"],
