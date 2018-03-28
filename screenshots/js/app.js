@@ -3540,26 +3540,26 @@ let images_json = {
 },
 {
 "fname":"ma/pashalnyi_krolik.jpg",
-"descr":"",
-"htags":[],
+"descr":"пасхальный кролик",
+"htags":["события"],
 "created":"2017-04-17"
 },
 {
 "fname":"ma/patrul.jpg",
-"descr":"",
-"htags":[],
+"descr":"патруль",
+"htags":["без тэга"],
 "created":"2017-04-17"
 },
 {
 "fname":"ma/pervoklassnica.jpg",
-"descr":"",
-"htags":[],
+"descr":"первоклассница",
+"htags":["события"],
 "created":"2017-08-21"
 },
 {
 "fname":"ma/pervoklassnik.jpg",
-"descr":"",
-"htags":[],
+"descr":"первоклассник",
+"htags":["события"],
 "created":"2017-08-21"
 },
 {
@@ -3576,26 +3576,26 @@ let images_json = {
 },
 {
 "fname":"ma/pirat_prizrak.jpg",
-"descr":"",
-"htags":[],
+"descr":"пират-призрак",
+"htags":["день благодарения"],
 "created":"2017-10-16"
 },
 {
 "fname":"ma/plushevyi_medvezhonok.jpg",
-"descr":"",
-"htags":[],
+"descr":"плюшевый медвежонок",
+"htags":["персонажи"],
 "created":"2017-05-23"
 },
 {
 "fname":"ma/PolliAtkins.jpg",
-"descr":"",
-"htags":[],
+"descr":"Полли Аткинс",
+"htags":["персонажи"],
 "created":"2017-08-17"
 },
 {
 "fname":"ma/provodnica.jpg",
-"descr":"",
-"htags":[],
+"descr":"проводница",
+"htags":["события"],
 "created":"2017-05-07"
 },
 {
@@ -3846,14 +3846,14 @@ let images_json = {
 },
 {
 "fname":"ma/TrulyaTralya.jpg",
-"descr":"",
-"htags":[],
+"descr":"Труляля и Траляля",
+"htags":["персонажи"],
 "created":"2017-09-25"
 },
 {
 "fname":"ma/truslivyi_malchischka.jpg",
-"descr":"Труляля и Траляля",
-"htags":["персонажи"],
+"descr":"трусливый мальчишка",
+"htags":["мальчишки"],
 "created":"2017-06-15"
 },
 {
