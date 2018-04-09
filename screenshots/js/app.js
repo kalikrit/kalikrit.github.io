@@ -2819,6 +2819,42 @@ let images_json = {
 }],
 "ma":[
 {
+"fname":"ma/pashalnoe_yaico.jpg",
+"descr":"пасхальное яйцо",
+"htags":["события","бой"],
+"created":"2018-04-09"
+},
+{
+"fname":"ma/electricheskii_zlodey.jpg",
+"descr":"электрический злодей",
+"htags":["события"],
+"created":"2018-04-09"
+},
+{
+"fname":"ma/avantyuristka.jpg",
+"descr":"авантюристка",
+"htags":["события","коты"],
+"created":"2018-04-09"
+},
+{
+"fname":"ma/kot_huligan.jpg",
+"descr":"кот хулиган",
+"htags":["события","коты"],
+"created":"2018-04-09"
+},
+{
+"fname":"ma/boycovskii_kot.jpg",
+"descr":"бойцовский кот",
+"htags":["события","коты"],
+"created":"2018-04-09"
+},
+{
+"fname":"ma/prilezhnaya_koshechka.jpg",
+"descr":"прилежная кошечка",
+"htags":["события","коты"],
+"created":"2018-04-09"
+},
+{
 "fname":"ma/klurikon.jpg",
 "descr":"Клурикон",
 "htags":["без тэга"],
