@@ -16,6 +16,12 @@ function AppController($scope){
 let images_json = {    
 "mm":[
 {
+"fname":"mm/AnastasiyaPickvik.jpg",
+"descr" : "Анастасия Пиквик",
+"htags" : ["персонажи","первый этаж"],
+"created":"2018-06-22"
+},
+{
 "fname":"mm/room_shahmatnyi_zal.jpg",
 "descr" : "шахматный зал",
 "htags" : ["комнаты","двор"],
@@ -2879,6 +2885,30 @@ let images_json = {
 }],
 "ma":[
 {
+"fname":"ma/devushka_s_plakata.jpg",
+"descr":"девушка с плаката",
+"htags":["без тэга"],
+"created":"2018-06-11"
+},
+{
+"fname":"ma/gornichnaya.jpg",
+"descr":"горничная",
+"htags":["без тэга"],
+"created":"2018-06-11"
+},
+{
+"fname":"ma/gercogHems_boy.jpg",
+"descr":"герцог Хемс: бой",
+"htags":["бой"],
+"created":"2018-05-10"
+},
+{
+"fname":"ma/schenok_baskervilei.jpg",
+"descr":"щенок Баскервилей",
+"htags":["события"],
+"created":"2018-05-08"
+},
+{
 "fname":"ma/pashalnoe_yaico.jpg",
 "descr":"пасхальное яйцо",
 "htags":["события","бой"],
@@ -4200,7 +4230,7 @@ let images_json = {
         return gtags;
     };
 
-    $scope.pictures = $scope.get_latest(10);
+    $scope.pictures = $scope.get_latest(30);
     $scope.galname = 'mm';
     $scope.galtags = $scope.get_gallery_tags($scope.galname);
     
