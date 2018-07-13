@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+  <style>
+    .background {
+      display: block;
+      color:blueviolet;
+      font: 20px Arial;
+    }
+    .info{
+      text-align: center;
+      font: 65px Arial;
+      font-weight: 400;
+      color: navy;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      display: block;
+      background-color: lightblue;
+      width: 100px;
+    }
+    .screen, .congrat{
+      position: fixed;
+      font: 20px Arial;
+      background: lightgreen;
+      color:darkolivegreen;
+      font-weight: 800;
+      margin: 100px;
+      padding: 50px;
+      z-index: 1111;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="screen">
+    <p>На этой странице спрятаны слова СЧАСТЬЯ, слова - которые вызывают у каждого улыбку и радость, слова, которые украшают этот мир!</p>
+    <p>Напиши эти слова на русском языке, и, если ты угадаешь слово, на экране покажется маленький сюрприз )))</p>
+    <p>Одно слово используется один раз. Количество оставшихся спрятанных слов показано в левом углу</p>
+    <p>Кликните на этот экран, чтобы начать поиск!</p>
+  </div>
+  <div class="info"></div>
+  <div class="congrat">
+    <p>ПОЗДРАВЛЯЕМ !!!</p>
+    <p>Ты нашел/нашла все слова СЧАСТЬЯ!!!</p>
+    <p>Ты - по-настоящему счастливый человек!!!</p>
+  </div>
+<script>
+  const bg = document.querySelector('.background');
+  const info = document.querySelector('.info');
+  const screen = document.querySelector('.screen');
+  const congrat = document.querySelector('.congrat');
+  congrat.style.display='none';
+  let cansearch = false;
+    let pressed = [];
+  let secretwords = ['любовь','солнце','мама','мечта','радость','счастье','красота','единорог','малыш','ребенок','мир','радуга','конфета',
+  'улыбка', 'поцелуй','секс','забота','родители','бабочка'];
+  let max_word_length = 0;
+  secretwords.forEach(word=>{
+    if(word.length > max_word_length)
+      max_word_length = word.length;
+  });
+
+  screen.addEventListener('click',()=>{
+    screen.style.display = 'none';
+    cansearch = true;
+  });
+
+  function findsecrets(e){
+    pressed.push(e.key);
+    bg.innerText += ' ' + e.key;
+    pressed.splice(-max_word_length - 1, pressed.length - max_word_length);
+    secretwords.forEach(word=> {
+      if(pressed.join('').includes(word)) {
+      console.log('%cСЕКРЕТНЫЙ КОД ВВЕДЕН!', 'font-size:16px; color: green; background:lightgray; text-shadow:3px 3px 0 yellow');
+      secretwords.splice(secretwords.indexOf(word),1);
+      info.innerText = secretwords.length;
+      pressed = [];
+      cornify_add();
+      if(secretwords.length == 0) {
+        cansearch = false;
+        congrat.style.display='block';
+      }
+        
+    }});
+  }
+  info.innerText = secretwords.length;
+  window.addEventListener('keyup', (e) => cansearch && findsecrets(e));
+</script>
+</body>
+</html>
