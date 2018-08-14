@@ -154,7 +154,21 @@ let rashody_chart = new Chart(RASH, {
 	data: {
 		labels: ["Январь","Февраль","Март","Апрель","Май","Июнь", "Июль", "Август"],// "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
 		datasets: DS
-	}
+	},
+	options:{
+		onClick: function(c,i) {
+			e = i[0];
+			console.log(e._view.label); // month.label e._index month number
+			console.log(this.getElementsAtEvent(c));
+			//console.log(this.data.labels[e._index]);
+			//console.log(this.data.datasets);
+			/* console.log(e._index)
+			var x_value = this.data.labels[e._index];
+			var y_value = this.data.datasets[0].data[e._index];
+			console.log(x_value);
+			console.log(y_value); */
+		}
+	}	
 });
 
 let data = [];
@@ -177,7 +191,7 @@ let sum_rashody_month = new Chart(SRM, {
 			data: data,
 			backgroundColor: ["#6633FF","#f19670","#339999","#666633","#447c69","#FFCC33","#993300","#f19670"]
 		}]
-	}	
+	}
 });
 
 let pielabels = [];
