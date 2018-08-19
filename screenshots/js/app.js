@@ -14,7 +14,43 @@ function AppController($scope){
     $scope.galleries = [{"name":"Mystery Manor","alias":"mm"},{"name":"Mirrors of Albion","alias":"ma"}];
 	
 let images_json = {    
-"mm":[
+"mm":[ 
+{
+    "fname":"mm/room_perfumery.jpg",
+    "descr" : "парфюмерная",
+    "htags" : ["комнаты","второй этаж"],
+    "created":"2018-08-19"
+},  
+ {
+    "fname":"mm/room_tea-room.jpg",
+    "descr" : "чайная комната",
+    "htags" : ["комнаты","второй этаж"],
+    "created":"2018-08-19"
+},     
+ {
+    "fname":"mm/snytch_mapmaker.jpg",
+    "descr" : "снэтчин картограф",
+    "htags" : ["снэтчины","второй этаж"],
+    "created":"2018-08-02"
+},     
+{
+    "fname":"mm/cosmik_fox.jpg",
+    "descr" : "космический лис",
+    "htags" : ["второй этаж"],
+    "created":"2018-08-02"
+},    
+{
+    "fname":"mm/room_observatory.jpg",
+    "descr" : "обсерватория",
+    "htags" : ["комнаты","второй этаж"],
+    "created":"2018-08-02"
+}, 
+{
+    "fname":"mm/FrancisAstaire.jpg",
+    "descr" : "Фрэнцисс Астайр",
+    "htags" : ["персонажи","второй этаж"],
+    "created":"2018-08-02"
+},    
 {
 "fname":"mm/AnastasiyaPickvik.jpg",
 "descr" : "Анастасия Пиквик",
@@ -2884,6 +2920,12 @@ let images_json = {
 "created":"2016-11-26"
 }],
 "ma":[
+{
+"fname":"ma/NevilHill.jpg",
+"descr":"Невил Хилл",
+"htags":["персонажи"],
+"created":"2018-07-07"
+},    
 {
 "fname":"ma/devushka_s_plakata.jpg",
 "descr":"девушка с плаката",
