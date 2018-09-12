@@ -11,9 +11,301 @@ function AppController($scope){
     $scope.galname = null;
     $scope.found_num = 0;
     $scope.search_string = null;
-    $scope.galleries = [{"name":"Mystery Manor","alias":"mm"},{"name":"Mirrors of Albion","alias":"ma"}];
+    $scope.galleries = [{"name":"Mystery Manor","alias":"mm"},
+			{"name":"Mirrors of Albion","alias":"ma"},
+			{"name":"Hidden City","alias":"hc"}];
 	
-let images_json = {    
+let images_json = {
+"hc":[
+{
+    "fname":"hc/monsters_gorgulia_ognennaya.jpg",
+    "descr" : "огненная горгулья",
+    "htags" : ["монстры"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/monsters_oboroten_lunnyi.jpg",
+    "descr" : "лунный оборотень",
+    "htags" : ["монстры"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/room_podval_chasovni.jpg",
+    "descr" : "подвал часовни",
+    "htags" : ["комнаты"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/room_organ.jpg",
+    "descr" : "комната с органом",
+    "htags" : ["комнаты"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/room_angel.jpg",
+    "descr" : "руины ангела",
+    "htags" : ["комнаты"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/zastavka_Ledi_Helen.jpg",
+    "descr" : "заставка: Леди Хелен",
+    "htags" : ["заставки"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/room_zal_svadeb.jpg",
+    "descr" : "зал свадеб",
+    "htags" : ["комнаты"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/room_cafe_red_rose.jpg",
+    "descr" : "кафе Красная Роза",
+    "htags" : ["комнаты"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/room_vorota_imeniya.jpg",
+    "descr" : "ворота имения",
+    "htags" : ["комнаты"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/room_mesto_katastrofy.jpg",
+    "descr" : "место катастрофы",
+    "htags" : ["комнаты"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/Mer.jpg",
+    "descr" : "мэр",
+    "htags" : ["персонажи"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/mini_game_expedition.jpg",
+    "descr" : "экспедиция",
+    "htags" : ["мини игры"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/Alex.jpg",
+    "descr" : "Алекс",
+    "htags" : ["персонажи"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/room_zakoldovannyi_bal.jpg",
+    "descr" : "закалдованный бал",
+    "htags" : ["комнаты"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/room_observatory.jpg",
+    "descr" : "обсерватория",
+    "htags" : ["комнаты"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/monsters_mumiya.jpg",
+    "descr" : "мумия",
+    "htags" : ["монстры"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/monsters_gorgulia_cheshuy.jpg",
+    "descr" : "чешуйчатая горгулья",
+    "htags" : ["монстры"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/monsters_mumiya_ognennaya.jpg",
+    "descr" : "огненная мумия",
+    "htags" : ["монстры"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/monsters_oboroten_psi.jpg",
+    "descr" : "пси-оборотень",
+    "htags" : ["монстры"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/zastavka_astronom.jpg",
+    "descr" : "заставка: астроном",
+    "htags" : ["заставки"],
+    "created":"2018-09-11"
+},
+{
+    "fname":"hc/Ohotnica.jpg",
+    "descr" : "охотница",
+    "htags" : ["персонажи"],
+    "created":"2018-08-23"
+},
+{
+    "fname":"hc/room_dom_kollekcionera.jpg",
+    "descr" : "дом коллекционера",
+    "htags" : ["комнаты"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/new_rang.jpg",
+    "descr" : "новый ранг",
+    "htags" : ["разное"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Izabel.jpg",
+    "descr" : "Изабель",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/monsters_boy.jpg",
+    "descr" : "бой с монстром",
+    "htags" : ["разное","монстры"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/monsters_prizrak.jpg",
+    "descr" : "призрак",
+    "htags" : ["монстры"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Predskazatelnica.jpg",
+    "descr" : "предсказательница",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/monsters_strannik.jpg",
+    "descr" : "странник",
+    "htags" : ["монстры"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/monsters_oboroten.jpg",
+    "descr" : "оборотень",
+    "htags" : ["монстры"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Inspector.jpg",
+    "descr" : "инспектор",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/mini_game_raskopki.jpg",
+    "descr" : "мини игры: раскопки",
+    "htags" : ["мини игры"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/room_orangereya.jpg",
+    "descr" : "оранжерея",
+    "htags" : ["комнаты"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/letter.jpg",
+    "descr" : "письмо",
+    "htags" : ["разное"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Valeri.jpg",
+    "descr" : "Валери",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Ledi.jpg",
+    "descr" : "Леди",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Shuler.jpg",
+    "descr" : "шулер",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/dnevnik.jpg",
+    "descr" : "дневник",
+    "htags" : ["разное"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/hidden_city.jpg",
+    "descr" : "Hidden City",
+    "htags" : ["разное"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/level_up.jpg",
+    "descr" : "уровень!",
+    "htags" : ["разное"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/monsters_gorgulia.jpg",
+    "descr" : "горгулья",
+    "htags" : ["монстры"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/room_vokzal.jpg",
+    "descr" : "вокзал",
+    "htags" : ["комнаты"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/room_komnata_sudby.jpg",
+    "descr" : "комната судьбы",
+    "htags" : ["комнаты"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/room_city_hall.jpg",
+    "descr" : "Сити-Холл",
+    "htags" : ["комнаты"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Provodnik.jpg",
+    "descr" : "Проводник",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Marta.jpg",
+    "descr" : "Марта",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Detectiv.jpg",
+    "descr" : "Детектив",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/Julliet.jpg",
+    "descr" : "Джульетта",
+    "htags" : ["персонажи"],
+    "created":"2018-08-22"
+},
+{
+    "fname":"hc/zastavka_orangereya.jpg",
+    "descr" : "заставка: оранжерея",
+    "htags" : ["заставки"],
+    "created":"2018-08-22"
+}
+],    
 "mm":[ 
 {
     "fname":"mm/room_perfumery.jpg",
@@ -4238,7 +4530,7 @@ let images_json = {
 	$scope.get_latest = function(n) {
 		let found = [];
         $scope.search_string = "новинки";
-		let pict_arr = (images_json['ma']).concat(images_json['mm']);
+		let pict_arr = (images_json['ma']).concat(images_json['mm']).concat(images_json['hc']);
 		let today = Date.now();
 		let i = 0;
         pict_arr.forEach(function(item){
@@ -4327,7 +4619,7 @@ let images_json = {
     $scope.search = function(string){
 		string = string.toLowerCase();
         let found = [];
-        let pict_arr = (images_json['mm']).concat(images_json['ma']);
+        let pict_arr = (images_json['mm']).concat(images_json['ma']).concat(images_json['hc']);
         pict_arr.forEach(function(item){
             if(item.htags.includes(string) || item.descr.toLowerCase().includes(string))
             found.push(item);
