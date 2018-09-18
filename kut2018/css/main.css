@@ -82,6 +82,7 @@ textarea {
 .info >p span {
     font-weight: bold;
 }
+.note {size: smaller;color: white}
 #header h2 {color: whitesmoke}
 #header, #footer {
     background: lightseagreen
