@@ -368,6 +368,36 @@ let images_json = {
 ],    
 "mm":[ 
 {
+    "fname":"mm/room_stekloduvnaya.jpg",
+    "descr" : "стеклодувная",
+    "htags" : ["комнаты","второй этаж"],
+    "created":"2018-09-24"
+},
+{
+    "fname":"mm/podmasterie_stekloduva.jpg",
+    "descr" : "подмастерье стеклодува",
+    "htags" : ["снэтчины","второй этаж"],
+    "created":"2018-09-24"
+},
+{
+    "fname":"mm/shustryi_slonenok.jpg",
+    "descr" : "шустрый слоненок",
+    "htags" : ["второй этаж"],
+    "created":"2018-09-24"
+},    
+{
+    "fname":"mm/to_write.jpg",
+    "descr" : "ученица Греттель",
+    "htags" : ["события"],
+    "created":"2018-09-11"
+},  
+{
+    "fname":"mm/school_story.jpg",
+    "descr" : "школьная история",
+    "htags" : ["события"],
+    "created":"2018-09-11"
+},    
+{
     "fname":"mm/room_perfumery.jpg",
     "descr" : "парфюмерная",
     "htags" : ["комнаты","второй этаж"],
