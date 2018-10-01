@@ -18,6 +18,96 @@ function AppController($scope){
 let images_json = {
 "hc":[
 {
+    "fname":"hc/success_helloween.jpg",
+    "descr" : "успех Хеллоуин",
+    "htags" : ["разное"],
+    "created":"2018-10-01"
+},     
+{
+    "fname":"hc/Neznakomka.jpg",
+    "descr" : "Незнакомка",
+    "htags" : ["персонажи"],
+    "created":"2018-10-01"
+},
+{
+    "fname":"hc/Adelina_svensson.jpg",
+    "descr" : "Аделина Свенссон",
+    "htags" : ["персонажи"],
+    "created":"2018-10-01"
+},
+{
+    "fname":"hc/mini_game_raskopki_heloween.jpg",
+    "descr" : "мини игры: раскопки Хэллоуин",
+    "htags" : ["мини игры"],
+    "created":"2018-10-01"
+},
+{
+    "fname":"hc/room_rozhdestvenskii_zal.jpg",
+    "descr" : "рождественский зал",
+    "htags" : ["комнаты"],
+    "created":"2018-10-01"
+},    
+{
+    "fname":"hc/letter_5.jpg",
+    "descr" : "письмо",
+    "htags" : ["разное"],
+    "created":"2018-10-01"
+}, 
+{
+    "fname":"hc/monsters_gorgulia_iron.jpg",
+    "descr" : "железная горгулья",
+    "htags" : ["монстры"],
+    "created":"2018-10-01"
+}, 
+{
+    "fname":"hc/monsters_zombie.jpg",
+    "descr" : "зомби",
+    "htags" : ["монстры"],
+    "created":"2018-10-01"
+}, 
+{
+    "fname":"hc/worlds_clock.jpg",
+    "descr" : "часы миров",
+    "htags" : ["разное"],
+    "created":"2018-10-01"
+}, 
+{
+    "fname":"hc/room_jack_tower.jpg",
+    "descr" : "башня Джека",
+    "htags" : ["комнаты"],
+    "created":"2018-10-01"
+},    
+{
+    "fname":"hc/letter_4.jpg",
+    "descr" : "письмо",
+    "htags" : ["разное"],
+    "created":"2018-10-01"
+},     
+{
+    "fname":"hc/helloween_anonce.jpg",
+    "descr" : "близится Хеллоуин",
+    "htags" : ["разное"],
+    "created":"2018-10-01"
+},      
+{
+    "fname":"hc/zastavka_trio.jpg",
+    "descr" : "заставка",
+    "htags" : ["заставки"],
+    "created":"2018-10-01"
+},    
+{
+    "fname":"hc/zastavka_charodeika_dzheka.jpg",
+    "descr" : "заставка: чародейка Джека",
+    "htags" : ["заставки"],
+    "created":"2018-10-01"
+},
+{
+    "fname":"hc/zastavka_povelitel_voronov.jpg",
+    "descr" : "заставка: повелитель воронов",
+    "htags" : ["заставки"],
+    "created":"2018-10-01"
+},    
+{
     "fname":"hc/room_park_s_prizrakami.jpg",
     "descr" : "парк с призраками",
     "htags" : ["комнаты"],
