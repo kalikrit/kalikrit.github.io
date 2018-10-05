@@ -18,6 +18,30 @@ function AppController($scope){
 let images_json = {
 "hc":[
 {
+    "fname":"hc/helloween_letter_come.jpg",
+    "descr" : "письмо хэллоуин",
+    "htags" : ["разное"],
+    "created":"2018-10-03"
+},     
+{
+    "fname":"hc/lavka_zaryadok_helloween.jpg",
+    "descr" : "лавка зарядок хэллоуин",
+    "htags" : ["разное"],
+    "created":"2018-10-03"
+},     
+{
+    "fname":"hc/monsters_oboroten_zagruzka.jpg",
+    "descr" : "оборотень: загрузка",
+    "htags" : ["разное"],
+    "created":"2018-10-03"
+},    
+{
+    "fname":"hc/krasota_2.jpg",
+    "descr" : "красота",
+    "htags" : ["разное"],
+    "created":"2018-10-03"
+}, 
+{
     "fname":"hc/success_helloween.jpg",
     "descr" : "успех Хеллоуин",
     "htags" : ["разное"],
@@ -469,6 +493,12 @@ let images_json = {
 }
 ],    
 "mm":[ 
+{
+    "fname":"mm/room_avenida_rio_de_jan.jpg",
+    "descr" : "авенида Рио-де-жанейро",
+    "htags" : ["комнаты","портал"],
+    "created":"2018-10-04"
+},    
 {
     "fname":"mm/metr_Foshlevan.jpg",
     "descr" : "мэтр Фошлеван",
