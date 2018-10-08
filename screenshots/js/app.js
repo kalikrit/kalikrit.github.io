@@ -18,10 +18,46 @@ function AppController($scope){
 let images_json = {
 "hc":[
 {
+    "fname":"hc/room_logovo_oborotney.jpg",
+    "descr" : "логово оборотней",
+    "htags" : ["комнаты"],
+    "created":"2018-10-08"
+},    
+{
+    "fname":"hc/Hozyaika.jpg",
+    "descr" : "хозяйка",
+    "htags" : ["персонажи"],
+    "created":"2018-10-08"
+},
+{
+    "fname":"hc/Jack.jpg",
+    "descr" : "Джек",
+    "htags" : ["персонажи"],
+    "created":"2018-10-08"
+}, 
+{
+    "fname":"hc/Julliet_helloween.jpg",
+    "descr" : "Джульетта хэллоуин",
+    "htags" : ["персонажи"],
+    "created":"2018-10-08"
+}, 
+{
+    "fname":"hc/letter_6.jpg",
+    "descr" : "письмо",
+    "htags" : ["разное"],
+    "created":"2018-10-08"
+},  
+{
+    "fname":"hc/Detectiv_helloween.jpg",
+    "descr" : "Детектив хэллоуин",
+    "htags" : ["персонажи"],
+    "created":"2018-10-08"
+},    
+{
     "fname":"hc/helloween_letter_come.jpg",
     "descr" : "письмо хэллоуин",
     "htags" : ["разное"],
-    "created":"2018-10-03"
+    "created":"2018-10-08"
 },     
 {
     "fname":"hc/lavka_zaryadok_helloween.jpg",
@@ -493,6 +529,36 @@ let images_json = {
 }
 ],    
 "mm":[ 
+{
+    "fname":"mm/ulitka_mirotvorec.jpg",
+    "descr" : "улитка-миротворец",
+    "htags" : ["экспедиции"],
+    "created":"2018-10-08"
+},  
+{
+    "fname":"mm/grib_povstanec.jpg",
+    "descr" : "гриб-повстанец",
+    "htags" : ["экспедиции"],
+    "created":"2018-10-08"
+},  
+{
+    "fname":"mm/AimoYarvi.jpg",
+    "descr" : "Аймо Ярви",
+    "htags" : ["персонажи"],
+    "created":"2018-10-07"
+},    
+{
+    "fname":"mm/mudraya_schuka.jpg",
+    "descr" : "мудрая щука",
+    "htags" : ["двор"],
+    "created":"2018-10-07"
+},
+{
+    "fname":"mm/snytch_Emelya_Gruzilov.jpg",
+    "descr" : "Емеля Грузилов",
+    "htags" : ["персонажи","снэтчины","двор"],
+    "created":"2018-10-07"
+},     
 {
     "fname":"mm/room_avenida_rio_de_jan.jpg",
     "descr" : "авенида Рио-де-жанейро",
