@@ -18,6 +18,12 @@ function AppController($scope){
 let images_json = {
 "hc":[
 {
+    "fname":"hc/letter_7.jpg",
+    "descr" : "письмо",
+    "htags" : ["разное"],
+    "created":"2018-10-11"
+},    
+{
     "fname":"hc/lediPavlin.jpg",
     "descr" : "леди Павлин",
     "htags" : ["персонажи"],
@@ -3512,6 +3518,18 @@ let images_json = {
 "created":"2016-11-26"
 }],
 "ma":[
+{
+"fname":"ma/prizrak_koldunii.jpg",
+"descr":"призрак колдуньи",
+"htags":["хэллоуин"],
+"created":"2018-10-11"
+},    
+{
+"fname":"ma/mladshii_druid.jpg",
+"descr":"младший друид",
+"htags":["без тэга"],
+"created":"2018-10-11"
+},     
 {
 "fname":"ma/NevilHill.jpg",
 "descr":"Невил Хилл",
