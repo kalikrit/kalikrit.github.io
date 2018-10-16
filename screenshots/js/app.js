@@ -3541,7 +3541,19 @@ let images_json = {
 "htags":["экспедиции"],
 "created":"2016-11-26"
 }],
-"ma":[
+"ma":[  
+{
+"fname":"ma/gnom4utkiiNos.jpg",
+"descr":"гном чуткий нос",
+"htags":["без тэга"],
+"created":"2018-10-16"
+},     
+{
+"fname":"ma/Martin.jpg",
+"descr":"Мартин",
+"htags":["персонажи"],
+"created":"2018-10-14"
+}, 
 {
 "fname":"ma/prizrak_koldunii.jpg",
 "descr":"призрак колдуньи",
