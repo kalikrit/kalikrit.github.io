@@ -18,6 +18,18 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/room_spalnya.jpg",
+                    "descr": "спальня",
+                    "htags": ["комнаты"],
+                    "created": "2018-10-28"
+                },
+                {
+                    "fname": "hc/letter_9.jpg",
+                    "descr": "письмо",
+                    "htags": ["разное"],
+                    "created": "2018-10-28"
+                },
+                {
                     "fname": "hc/Professor.jpg",
                     "descr": "профессор",
                     "htags": ["персонажи"],
@@ -3578,6 +3590,12 @@
                     "created": "2016-11-26"
                 }],
             "ma": [
+                {
+                    "fname": "ma/room_ozhivshiy_sad.jpg",
+                    "descr": "оживший сад",
+                    "htags": ["комнаты"],
+                    "created": "2018-10-28"
+                },                
                 {
                     "fname": "ma/gnom4utkiiNos.jpg",
                     "descr": "гном чуткий нос",
