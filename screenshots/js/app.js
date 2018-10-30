@@ -608,6 +608,24 @@
             ],
             "mm": [
                 {
+                    "fname": "mm/room_holl_v_alemane.jpg",
+                    "descr": "холл в Алемане",
+                    "htags": ["комнаты", "двор"],
+                    "created": "2018-10-29"
+                }, 
+                {
+                    "fname": "mm/general_Krig_boy_2.jpg",
+                    "descr": "генерал Криг: победа",
+                    "htags": ["бой"],
+                    "created": "2018-10-29"
+                },                 
+                {
+                    "fname": "mm/general_Krig_boy_1.jpg",
+                    "descr": "генерал Криг: бой",
+                    "htags": ["бой"],
+                    "created": "2018-10-29"
+                },                
+                {
                     "fname": "mm/koroleva_karnavala.jpg",
                     "descr": "королева карнавала",
                     "htags": ["события"],
@@ -735,19 +753,19 @@
                 },
                 {
                     "fname": "mm/shahmaty_black_queen_3.jpg",
-                    "descr": "Черная королева. Победа",
+                    "descr": "Черная королева: победа",
                     "htags": ["двор", "бой"],
                     "created": "2018-05-10"
                 },
                 {
                     "fname": "mm/shahmaty_black_queen_2.jpg",
-                    "descr": "Черная королева. бой",
+                    "descr": "Черная королева: бой",
                     "htags": ["двор", "бой"],
                     "created": "2018-05-10"
                 },
                 {
                     "fname": "mm/shahmaty_black_queen_1.jpg",
-                    "descr": "Черная королева. бой. начало",
+                    "descr": "Черная королева: бой",
                     "htags": ["двор", "бой"],
                     "created": "2018-05-10"
                 },
@@ -903,13 +921,13 @@
                 },
                 {
                     "fname": "mm/Katerina_boy_2.jpg",
-                    "descr": "домик деда мороза. Катерина. Победа",
+                    "descr": "домик деда мороза: Катерина. победа",
                     "htags": ["зимний двор", "бой"],
                     "created": "2018-02-08"
                 },
                 {
                     "fname": "mm/Katerina_boy_1.jpg",
-                    "descr": "домик деда мороза. Катерина. бой",
+                    "descr": "домик деда мороза: Катерина. бой",
                     "htags": ["зимний двор", "бой"],
                     "created": "2018-02-08"
                 },
