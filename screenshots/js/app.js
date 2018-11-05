@@ -18,6 +18,138 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/monsters_strannik_osen.jpg",
+                    "descr": "странник бой осень",
+                    "htags": ["монстры"],
+                    "created": "2018-11-5"
+                },				
+                {
+                    "fname": "hc/vestnica_oseni.jpg",
+                    "descr": "вестница осени",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/Julliet_osen.jpg",
+                    "descr": "Джульетта осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-5"
+                },				
+                {
+                    "fname": "hc/letter_12.jpg",
+                    "descr": "письмо",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },				
+                {
+                    "fname": "hc/osen_letter_come.jpg",
+                    "descr": "письмо пришло",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },				
+                {
+                    "fname": "hc/Inspector_osen.jpg",
+                    "descr": "инспектор осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/lavka_zaryadok_osen.jpg",
+                    "descr": "лавка зарядок осень",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/mini_game_raskopki_osen.jpg",
+                    "descr": "раскопки осень",
+                    "htags": ["мини игры"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/ladya_izobiliya.jpg",
+                    "descr": "ладья изобилия",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/Provodnik_osen.jpg",
+                    "descr": "проводник осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-5"
+                },				
+                {
+                    "fname": "hc/Valeri_osen.jpg",
+                    "descr": "Валери осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/osen_uspeh.jpg",
+                    "descr": "успех осень",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },				
+                {
+                    "fname": "hc/room_dolina_oseni.jpg",
+                    "descr": "долина осени",
+                    "htags": ["комнаты"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/dolina_oseni_start.jpg",
+                    "descr": "долина осени начало",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },				
+                {
+                    "fname": "hc/Izabel_osen.jpg",
+                    "descr": "Изабель осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/open_dolina_oseni.jpg",
+                    "descr": "долина осени",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/Marta_osen.jpg",
+                    "descr": "Марта осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-5"
+                },				
+                {
+                    "fname": "hc/5_chudes_oseni_.jpg",
+                    "descr": "пять чудес осени",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/letter_11.jpg",
+                    "descr": "письмо",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/mer_osen.jpg",
+                    "descr": "мэр осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/5_chudes_oseni.jpg",
+                    "descr": "пять чудес осени",
+                    "htags": ["разное"],
+                    "created": "2018-11-5"
+                },			
+                {
+                    "fname": "hc/zastavka_Jill_Autumn.jpg",
+                    "descr": "заставка: Джил Отем",
+                    "htags": ["заставки"],
+                    "created": "2018-11-5"
+                },			
+                {
                     "fname": "hc/letter_10.jpg",
                     "descr": "письмо",
                     "htags": ["разное"],
@@ -181,7 +313,7 @@
                 },
                 {
                     "fname": "hc/mini_game_raskopki_heloween.jpg",
-                    "descr": "мини игры: раскопки Хэллоуин",
+                    "descr": "раскопки хэллоуин",
                     "htags": ["мини игры"],
                     "created": "2018-10-01"
                 },
@@ -505,7 +637,7 @@
                 },
                 {
                     "fname": "hc/mini_game_raskopki.jpg",
-                    "descr": "мини игры: раскопки",
+                    "descr": "раскопки",
                     "htags": ["мини игры"],
                     "created": "2018-08-22"
                 },
