@@ -18,6 +18,12 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/room_dvor_zabytyh_igr.jpg",
+                    "descr": "двор забытых игр",
+                    "htags": ["комнаты"],
+                    "created": "2018-11-7"
+                },	                
+                {
                     "fname": "hc/monsters_strannik_osen.jpg",
                     "descr": "странник бой осень",
                     "htags": ["монстры"],
@@ -3746,6 +3752,12 @@
                     "created": "2016-11-26"
                 }],
             "ma": [
+                {
+                    "fname": "ma/malenkaya_muza.jpg",
+                    "descr": "маленькая муза",
+                    "htags": ["раное"],
+                    "created": "2018-11-6"
+                },                
                 {
                     "fname": "ma/SestraMilred.jpg",
                     "descr": "сестра Милдред",
