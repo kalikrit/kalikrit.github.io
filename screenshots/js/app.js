@@ -18,6 +18,36 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/Detectiv_osen.jpg",
+                    "descr": "Детектив осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-8"
+                },			
+                {
+                    "fname": "hc/letter_13.jpg",
+                    "descr": "письмо",
+                    "htags": ["разное"],
+                    "created": "2018-11-8"
+                },				
+                {
+                    "fname": "hc/Ledi_osen.jpg",
+                    "descr": "Леди",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-8"
+                },				
+                {
+                    "fname": "hc/Adelina_Svensson_osen.jpg",
+                    "descr": "Аделина Свенссон осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-8"
+                },			
+                {
+                    "fname": "hc/zastavka_Jack_Otem.jpg",
+                    "descr": "заставка: Джек Отем",
+                    "htags": ["заставки"],
+                    "created": "2018-11-8"
+                },			
+                {
                     "fname": "hc/room_dvor_zabytyh_igr.jpg",
                     "descr": "двор забытых игр",
                     "htags": ["комнаты"],
