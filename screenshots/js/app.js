@@ -17,14 +17,12 @@
 
         let images_json = {
             "hc": [
-                /*
                 {
                     "fname": "hc/Detectiv_osen.jpg",
                     "descr": "Детектив осень",
                     "htags": ["персонажи"],
                     "created": "2018-11-8"
-                },
-                */			
+                },			
                 {
                     "fname": "hc/letter_13.jpg",
                     "descr": "письмо",
