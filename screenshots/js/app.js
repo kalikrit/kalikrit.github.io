@@ -21,7 +21,7 @@
                     "fname": "hc/room_hotel.jpg",
                     "descr": "отель",
                     "htags": ["комнаты"],
-                    "created": "2018-11-11"
+                    "created": "2018-11-13"
                 }, 
                 {
                     "fname": "hc/Professor_osen.jpg",
@@ -39,175 +39,175 @@
                     "fname": "hc/Detectiv_osen.jpg",
                     "descr": "Детектив осень",
                     "htags": ["персонажи"],
-                    "created": "2018-11-8"
+                    "created": "2018-11-08"
                 },			
                 {
                     "fname": "hc/letter_13.jpg",
                     "descr": "письмо",
                     "htags": ["разное"],
-                    "created": "2018-11-8"
+                    "created": "2018-11-08"
                 },				
                 {
                     "fname": "hc/Ledi_osen.jpg",
                     "descr": "Леди",
                     "htags": ["персонажи"],
-                    "created": "2018-11-8"
+                    "created": "2018-11-08"
                 },				
                 {
                     "fname": "hc/Adelina_Svensson_osen.jpg",
                     "descr": "Аделина Свенссон осень",
                     "htags": ["персонажи"],
-                    "created": "2018-11-8"
+                    "created": "2018-11-08"
                 },			
                 {
                     "fname": "hc/zastavka_Jack_Otem.jpg",
                     "descr": "заставка: Джек Отем",
                     "htags": ["заставки"],
-                    "created": "2018-11-8"
+                    "created": "2018-11-08"
                 },			
                 {
                     "fname": "hc/room_dvor_zabytyh_igr.jpg",
                     "descr": "двор забытых игр",
                     "htags": ["комнаты"],
-                    "created": "2018-11-7"
+                    "created": "2018-11-07"
                 },	                
                 {
                     "fname": "hc/monsters_strannik_osen.jpg",
                     "descr": "странник бой осень",
                     "htags": ["монстры"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/vestnica_oseni.jpg",
                     "descr": "вестница осени",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/Julliet_osen.jpg",
                     "descr": "Джульетта осень",
                     "htags": ["персонажи"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/letter_12.jpg",
                     "descr": "письмо",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/osen_letter_come.jpg",
                     "descr": "письмо пришло",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/Inspector_osen.jpg",
                     "descr": "инспектор осень",
                     "htags": ["персонажи"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/lavka_zaryadok_osen.jpg",
                     "descr": "лавка зарядок осень",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/mini_game_raskopki_osen.jpg",
                     "descr": "раскопки осень",
                     "htags": ["мини игры"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/ladya_izobiliya.jpg",
                     "descr": "ладья изобилия",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/Provodnik_osen.jpg",
                     "descr": "проводник осень",
                     "htags": ["персонажи"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/Valeri_osen.jpg",
                     "descr": "Валери осень",
                     "htags": ["персонажи"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/osen_uspeh.jpg",
                     "descr": "успех осень",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/room_dolina_oseni.jpg",
                     "descr": "долина осени",
                     "htags": ["комнаты"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/dolina_oseni_start.jpg",
                     "descr": "долина осени начало",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/Izabel_osen.jpg",
                     "descr": "Изабель осень",
                     "htags": ["персонажи"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/open_dolina_oseni.jpg",
                     "descr": "долина осени",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/Marta_osen.jpg",
                     "descr": "Марта осень",
                     "htags": ["персонажи"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/5_chudes_oseni_.jpg",
                     "descr": "пять чудес осени",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/letter_11.jpg",
                     "descr": "письмо",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/mer_osen.jpg",
                     "descr": "мэр осень",
                     "htags": ["персонажи"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/5_chudes_oseni.jpg",
                     "descr": "пять чудес осени",
                     "htags": ["разное"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/zastavka_Jill_Autumn.jpg",
                     "descr": "заставка: Джил Отем",
                     "htags": ["заставки"],
-                    "created": "2018-11-5"
+                    "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/letter_10.jpg",
                     "descr": "письмо",
                     "htags": ["разное"],
-                    "created": "2018-11-1"
+                    "created": "2018-11-01"
                 },                
                 {
                     "fname": "hc/room_spalnya.jpg",
@@ -803,7 +803,7 @@
                     "fname": "mm/room_pokoi_guvernantki.jpg",
                     "descr": "покои гувернантки",
                     "htags": ["комнаты", "второй этаж"],
-                    "created": "2018-13-11"
+                    "created": "2018-11-13"
                 },                 
                 {
                     "fname": "mm/room_holl_v_alemane.jpg",
@@ -3810,19 +3810,19 @@
                     "fname": "ma/malenkaya_muza.jpg",
                     "descr": "маленькая муза",
                     "htags": ["раное"],
-                    "created": "2018-11-6"
+                    "created": "2018-11-06"
                 },                
                 {
                     "fname": "ma/SestraMilred.jpg",
                     "descr": "сестра Милдред",
                     "htags": ["персонажи"],
-                    "created": "2018-11-2"
+                    "created": "2018-11-02"
                 },
                 {
                     "fname": "ma/KuzinaBeta.jpg",
                     "descr": "кузина Бета",
                     "htags": ["персонажи"],
-                    "created": "2018-11-2"
+                    "created": "2018-11-02"
                 },                
                 {
                     "fname": "ma/room_ozhivshiy_sad.jpg",
