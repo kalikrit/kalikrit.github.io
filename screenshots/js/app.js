@@ -18,6 +18,24 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/room_hotel.jpg",
+                    "descr": "отель",
+                    "htags": ["комнаты"],
+                    "created": "2018-11-11"
+                }, 
+                {
+                    "fname": "hc/Professor_osen.jpg",
+                    "descr": "профессор осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-11"
+                }, 
+                {
+                    "fname": "hc/Ohotnica_osen.jpg",
+                    "descr": "охотница осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-10"
+                },                
+                {
                     "fname": "hc/Detectiv_osen.jpg",
                     "descr": "Детектив осень",
                     "htags": ["персонажи"],
@@ -781,6 +799,12 @@
                 }
             ],
             "mm": [
+                {
+                    "fname": "mm/room_pokoi_guvernantki.jpg",
+                    "descr": "покои гувернантки",
+                    "htags": ["комнаты", "второй этаж"],
+                    "created": "2018-13-11"
+                },                 
                 {
                     "fname": "mm/room_holl_v_alemane.jpg",
                     "descr": "холл в Алемане",
