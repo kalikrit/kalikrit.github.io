@@ -18,6 +18,18 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/nagrada.jpg",
+                    "descr": "первая награда!",
+                    "htags": ["разное"],
+                    "created": "2018-11-17"
+                }, 
+                {
+                    "fname": "hc/mission_complete.jpg",
+                    "descr": "уффф! прошли 1/3",
+                    "htags": ["разное"],
+                    "created": "2018-11-17"
+                },                 
+                {
                     "fname": "hc/room_hotel.jpg",
                     "descr": "отель",
                     "htags": ["комнаты"],
@@ -3807,9 +3819,15 @@
                 }],
             "ma": [
                 {
+                    "fname": "ma/zloy_volk.jpg",
+                    "descr": "злой волк",
+                    "htags": ["без тэга"],
+                    "created": "2018-11-18"
+                },                
+                {
                     "fname": "ma/malenkaya_muza.jpg",
                     "descr": "маленькая муза",
-                    "htags": ["раное"],
+                    "htags": ["без тэга"],
                     "created": "2018-11-06"
                 },                
                 {
