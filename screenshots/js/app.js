@@ -18,6 +18,24 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/Hozyaika_osen.jpg",
+                    "descr": "хозяйка осень",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-21"
+                }, 
+                {
+                    "fname": "hc/letter_14.jpg",
+                    "descr": "письмо",
+                    "htags": ["разное"],
+                    "created": "2018-11-20"
+                }, 
+                {
+                    "fname": "hc/room_vrata_zamka.jpg",
+                    "descr": "врата замка",
+                    "htags": ["комнаты"],
+                    "created": "2018-11-20"
+                },                 
+                {
                     "fname": "hc/nagrada.jpg",
                     "descr": "первая награда!",
                     "htags": ["разное"],
@@ -49,7 +67,7 @@
                 },                
                 {
                     "fname": "hc/Detectiv_osen.jpg",
-                    "descr": "Детектив осень",
+                    "descr": "детектив осень",
                     "htags": ["персонажи"],
                     "created": "2018-11-08"
                 },			
@@ -331,7 +349,7 @@
                 },
                 {
                     "fname": "hc/Detectiv_helloween.jpg",
-                    "descr": "Детектив хэллоуин",
+                    "descr": "детектив хэллоуин",
                     "htags": ["персонажи"],
                     "created": "2018-10-08"
                 },
@@ -793,7 +811,7 @@
                 },
                 {
                     "fname": "hc/Detectiv.jpg",
-                    "descr": "Детектив",
+                    "descr": "детектив",
                     "htags": ["персонажи"],
                     "created": "2018-08-22"
                 },
@@ -2360,9 +2378,9 @@
                     "created": "2016-11-21"
                 },
                 {
-                    "fname": "mm/kuchnya_izobilnaya.jpg",
-                    "descr": "кухня изобильная",
-                    "htags": ["первый этаж", "комнаты", "события"],
+                    "fname": "mm/room_izobilnaya_kuchnya.jpg",
+                    "descr": "изобильная кухня",
+                    "htags": ["комнаты", "события"],
                     "created": "2016-11-26"
                 },
                 {
@@ -2940,12 +2958,6 @@
                     "descr": "храм лотосов",
                     "htags": ["двор", "комнаты"],
                     "created": "2017-10-17"
-                },
-                {
-                    "fname": "mm/room_izobilnaya_kuhnya.jpg",
-                    "descr": "изобильная кухня",
-                    "htags": ["первый этаж", "комнаты", "события"],
-                    "created": "2016-11-19"
                 },
                 {
                     "fname": "mm/room_kabinet.jpg",
@@ -3818,6 +3830,12 @@
                     "created": "2016-11-26"
                 }],
             "ma": [
+                {
+                    "fname": "ma/pushistaya_ovechka.jpg",
+                    "descr": "пушистая овечка",
+                    "htags": ["без тэга"],
+                    "created": "2018-11-23"
+                },                
                 {
                     "fname": "ma/zloy_volk.jpg",
                     "descr": "злой волк",
