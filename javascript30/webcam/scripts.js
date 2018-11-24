@@ -46,7 +46,7 @@ function takePhoto(){
     const data = canvas.toDataURL('image/jpeg');
     const link = document.createElement('a');
     link.href = data;
-    link.setAttribute('download', 'handsome');
+    link.setAttribute('download', 'webpict_' + Date.now());
     link.innerHTML = `<img src="${data}" alt="my picture" />`;
     strip.insertBefore(link, strip.firstChild);
 }
@@ -96,3 +96,4 @@ function greenScreen(pixels){
 
 getVideo();
 video.addEventListener('canplay', paintToCanvas);
+canvas.addEventListener('click', takePhoto);
