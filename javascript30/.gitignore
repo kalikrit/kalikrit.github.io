@@ -4,3 +4,5 @@
 /js_ref_vs_copy/*
 /sort_without_articles/*
 /adding_time_with_reduce/*
+/webcam/node_modules/*
+/webcam/package.json
