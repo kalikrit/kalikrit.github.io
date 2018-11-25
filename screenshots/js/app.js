@@ -18,6 +18,18 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/klyuchnik.jpg",
+                    "descr": "ключник",
+                    "htags": ["персонажи"],
+                    "created": "2018-11-25"
+                },			
+                {
+                    "fname": "hc/letter_15.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2018-11-25"
+                }, 			
+                {
                     "fname": "hc/Hozyaika_osen.jpg",
                     "descr": "хозяйка осень",
                     "htags": ["персонажи"],
@@ -26,7 +38,7 @@
                 {
                     "fname": "hc/letter_14.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-11-20"
                 }, 
                 {
@@ -74,7 +86,7 @@
                 {
                     "fname": "hc/letter_13.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-11-08"
                 },				
                 {
@@ -122,13 +134,13 @@
                 {
                     "fname": "hc/letter_12.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/osen_letter_come.jpg",
                     "descr": "письмо пришло",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-11-05"
                 },				
                 {
@@ -212,7 +224,7 @@
                 {
                     "fname": "hc/letter_11.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-11-05"
                 },			
                 {
@@ -236,7 +248,7 @@
                 {
                     "fname": "hc/letter_10.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-11-01"
                 },                
                 {
@@ -248,7 +260,7 @@
                 {
                     "fname": "hc/letter_9.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-10-28"
                 },
                 {
@@ -278,7 +290,7 @@
                 {
                     "fname": "hc/letter_8.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-10-18"
                 },
                 {
@@ -308,7 +320,7 @@
                 {
                     "fname": "hc/letter_7.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-10-11"
                 },
                 {
@@ -344,7 +356,7 @@
                 {
                     "fname": "hc/letter_6.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-10-08"
                 },
                 {
@@ -356,7 +368,7 @@
                 {
                     "fname": "hc/helloween_letter_come.jpg",
                     "descr": "письмо хэллоуин",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-10-08"
                 },
                 {
@@ -410,7 +422,7 @@
                 {
                     "fname": "hc/letter_5.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-10-01"
                 },
                 {
@@ -440,7 +452,7 @@
                 {
                     "fname": "hc/letter_4.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-10-01"
                 },
                 {
@@ -482,7 +494,7 @@
                 {
                     "fname": "hc/letter_3.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-09-21"
                 },
                 {
@@ -524,7 +536,7 @@
                 {
                     "fname": "hc/letter_2.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-09-13"
                 },
                 {
@@ -734,7 +746,7 @@
                 {
                     "fname": "hc/letter.jpg",
                     "descr": "письмо",
-                    "htags": ["разное"],
+                    "htags": ["письма"],
                     "created": "2018-08-22"
                 },
                 {
@@ -829,6 +841,12 @@
                 }
             ],
             "mm": [
+                {
+                    "fname": "mm/miss_Sherbur.jpg",
+                    "descr": "мисс Шербур",
+                    "htags": ["второй этаж"],
+                    "created": "2018-11-25"
+                },			
                 {
                     "fname": "mm/room_pokoi_guvernantki.jpg",
                     "descr": "покои гувернантки",
