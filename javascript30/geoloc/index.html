@@ -11,8 +11,14 @@
 
   <h1 class="speed">
     <span class="speed-value">0</span>
-    <span class="units">KM/H</span>
+    <span class="units"> км/ч</span>
   </h1>
+  <h2>
+    <span class='lat'></span>
+  </h2>
+  <h2>  
+    <span class='lon'></span>
+  </h2>
 
   <style>
     html {
@@ -51,6 +57,13 @@
       display:flex;
       align-items: center;
     }
+    h2 {
+      color:white;
+      font-weight: 100;
+      font-size: 40px;
+      display:flex;
+      align-items: center;
+    }
 
     .units {
       font-size: 15px;
@@ -60,12 +73,21 @@
   <script>
     const arrow = document.querySelector('.arrow');
     const speed = document.querySelector('.speed-value');
+    const lat = document.querySelector('.lat');
+    const lon = document.querySelector('.lon');
     navigator.geolocation.watchPosition((data) => {
       speed.textContent = data.coords.speed;
+      lat.textContent = truncated(data.coords.latitude, 4);
+      lon.textContent = truncated(data.coords.longitude, 4) ;
       arrow.style.transform = `rotate(${data.coords.heading}deg)`
     }, (err) => {
       alert('приложению нужен досуп к геолокации');
     });
+
+    function truncated(num, decimalPlaces){
+      let numPowerConverter = Math.pow(10, decimalPlaces);
+      return ~~(num * numPowerConverter) / numPowerConverter;
+    }
   </script>
 </body>
 </html>
