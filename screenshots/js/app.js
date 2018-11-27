@@ -842,9 +842,15 @@
             ],
             "mm": [
                 {
+                    "fname": "mm/TobiMercator.jpg",
+                    "descr": "Тоби Меркатор",
+                    "htags": ["второй этаж", "снэтчины"],
+                    "created": "2018-11-27"
+                },                
+                {
                     "fname": "mm/miss_Sherbur.jpg",
                     "descr": "мисс Шербур",
-                    "htags": ["второй этаж"],
+                    "htags": ["второй этаж","снэтчины"],
                     "created": "2018-11-25"
                 },			
                 {
@@ -3849,11 +3855,24 @@
                 }],
             "ma": [
                 {
-                    "fname": "ma/pushistaya_ovechka.jpg",
-                    "descr": "пушистая овечка",
-                    "htags": ["без тэга"],
-                    "created": "2018-11-23"
+                    "fname": "ma/boy_prazdnichnyi_stol_pobeda.jpg",
+                    "descr": "украсить праздничный стол победа",
+                    "htags": ["бой"],
+                    "created": "2018-11-27"
+                },
+                {
+                    "fname": "ma/boy_prazdnichnyi_stol.jpg",
+                    "descr": "украсить праздничный стол",
+                    "htags": ["бой"],
+                    "created": "2018-11-27"
+                },
+                {
+                    "fname": "ma/room_teatr_piligrim.jpg",
+                    "descr": "театр пилигрим",
+                    "htags": ["комнаты"],
+                    "created": "2018-11-27"
                 },                
+                
                 {
                     "fname": "ma/zloy_volk.jpg",
                     "descr": "злой волк",
