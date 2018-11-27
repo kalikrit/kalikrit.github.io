@@ -13,12 +13,10 @@
     <span class="speed-value">0</span>
     <span class="units"> км/ч</span>
   </h1>
-  <h2>
-    <span class='lat'></span>
-  </h2>
-  <h2>  
+  <h4>
+    <span class='lat'></span><br>
     <span class='lon'></span>
-  </h2>
+  </h4>
 
   <style>
     html {
@@ -57,11 +55,10 @@
       display:flex;
       align-items: center;
     }
-    h2 {
+    h4 {
       color:white;
       font-weight: 100;
-      font-size: 40px;
-      display:flex;
+      font-size: 20px;
       align-items: center;
     }
 
@@ -76,7 +73,7 @@
     const lat = document.querySelector('.lat');
     const lon = document.querySelector('.lon');
     navigator.geolocation.watchPosition((data) => {
-      speed.textContent = data.coords.speed;
+      speed.textContent = truncated(data.coords.speed, 2);
       lat.textContent = truncated(data.coords.latitude, 4);
       lon.textContent = truncated(data.coords.longitude, 4) ;
       arrow.style.transform = `rotate(${data.coords.heading}deg)`
