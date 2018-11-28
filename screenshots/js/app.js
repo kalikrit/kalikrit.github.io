@@ -18,6 +18,12 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/room_vostochnyi_hram.jpg",
+                    "descr": "восточный храм",
+                    "htags": ["комнаты"],
+                    "created": "2018-11-28"
+                },                
+                {
                     "fname": "hc/klyuchnik.jpg",
                     "descr": "ключник",
                     "htags": ["персонажи"],
