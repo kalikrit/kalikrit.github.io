@@ -18,6 +18,18 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/room_teatr_vostorg.jpg",
+                    "descr": "театр Восторг",
+                    "htags": ["комнаты"],
+                    "created": "2018-12-02"
+                },                 
+                {
+                    "fname": "hc/letter_16.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2018-11-01"
+                },                
+                {
                     "fname": "hc/room_vostochnyi_hram.jpg",
                     "descr": "восточный храм",
                     "htags": ["комнаты"],
