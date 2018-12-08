@@ -18,6 +18,204 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/rozhdest_otkrytka.jpg",
+                    "descr": "рождественская открытка",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-08"
+                },
+                {
+                    "fname": "hc/ledyanoi_golem_boy.jpg",
+                    "descr": "ледяной голем бой",
+                    "htags": ["монстры", "зима"],
+                    "created": "2018-12-08"
+                },
+                {
+                    "fname": "hc/zastavka_doroti.jpg",
+                    "descr": "заставка: Дороти",
+                    "htags": ["заставки", "зима"],
+                    "created": "2018-12-08"
+                },
+                {
+                    "fname": "hc/Inspector_zima.jpg",
+                    "descr": "инспектор зима",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-08"
+                },
+                {
+                    "fname": "hc/letter_19.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2018-12-08"
+                },
+                {
+                    "fname": "hc/Snezhok.jpg",
+                    "descr": "Снежок",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-07"
+                },
+                {
+                    "fname": "hc/LyumikaVSsnowQ.jpg",
+                    "descr": "Люмика и Снежная Королева",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-06"
+                },
+                {
+                    "fname": "hc/Adelina_Svensson_zima.jpg",
+                    "descr": "Аделина Свенссон зима",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-06"
+                },
+                {
+                    "fname": "hc/red_box_free.jpg",
+                    "descr": "Снежок свободен",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-06"
+                },
+                {
+                    "fname": "hc/serdce_zimy_akciya.jpg",
+                    "descr": "сердце зимы",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-06"
+                },
+                {
+                    "fname": "hc/game_update.jpg",
+                    "descr": "игра обновляется",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-06"
+                },
+                {
+                    "fname": "hc/zastavka_trio_zima.jpg",
+                    "descr": "заставка: трио",
+                    "htags": ["заставки", "зима"],
+                    "created": "2018-12-06"
+                },
+                {
+                    "fname": "hc/raskopki_zima.jpg",
+                    "descr": "раскопки зима",
+                    "htags": ["мини игры", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/boy_zima.jpg",
+                    "descr": "мумия бой",
+                    "htags": ["монстры", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/Ledi_zima.jpg",
+                    "descr": "Леди зима",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/monsters_ledyanoi_golem.jpg",
+                    "descr": "ледяной голем",
+                    "htags": ["монстры"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/lavka_zaryadok_zima.jpg",
+                    "descr": "лавка зарядок зима",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/sunduk_santy.jpg",
+                    "descr": "сундук Санты",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/Doroti.jpg",
+                    "descr": "Дороти",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/Piter.jpg",
+                    "descr": "Питер",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/box_with_eyes.jpg",
+                    "descr": "загадочная коробка",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/Valeri_zima.jpg",
+                    "descr": "Валери зима",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/letter_18.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/uspeh_zima.jpg",
+                    "descr": "успех зима",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-05"
+                }, 
+                {
+                    "fname": "hc/room_polyarnyi_kvartal.jpg",
+                    "descr": "полярный квартал",
+                    "htags": ["комнаты", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/Mer_zima.jpg",
+                    "descr": "мэр зима",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/Aisi_zima.jpg",
+                    "descr": "Айси зима",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-05"
+                },
+                {
+                    "fname": "hc/Detectiv_zima.jpg",
+                    "descr": "детектив зима",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-05"
+                }, 
+                {
+                    "fname": "hc/hc_zima.jpg",
+                    "descr": "Hidden City зима",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-05"
+                }, 
+                {
+                    "fname": "hc/letter_17.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2018-12-05"
+                }, 
+                {
+                    "fname": "hc/Julliet_zima.jpg",
+                    "descr": "Джульетта зима",
+                    "htags": ["персонажи", "зима"],
+                    "created": "2018-12-05"
+                }, 
+                {
+                    "fname": "hc/serdce_zimy.jpg",
+                    "descr": "сердце зимы",
+                    "htags": ["разное", "зима"],
+                    "created": "2018-12-05"
+                }, 
+                {
+                    "fname": "hc/zastavka_Piter.jpg",
+                    "descr": "заставка: Питер",
+                    "htags": ["заставки", "зима"],
+                    "created": "2018-12-05"
+                },                
+                {
                     "fname": "hc/room_teatr_vostorg.jpg",
                     "descr": "театр Восторг",
                     "htags": ["комнаты"],
@@ -86,19 +284,19 @@
                 {
                     "fname": "hc/Professor_osen.jpg",
                     "descr": "профессор осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-11"
                 }, 
                 {
                     "fname": "hc/Ohotnica_osen.jpg",
                     "descr": "охотница осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-10"
                 },                
                 {
                     "fname": "hc/Detectiv_osen.jpg",
                     "descr": "детектив осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-08"
                 },			
                 {
@@ -109,20 +307,20 @@
                 },				
                 {
                     "fname": "hc/Ledi_osen.jpg",
-                    "descr": "Леди",
-                    "htags": ["персонажи"],
+                    "descr": "Леди осень",
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-08"
                 },				
                 {
                     "fname": "hc/Adelina_Svensson_osen.jpg",
                     "descr": "Аделина Свенссон осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-08"
                 },			
                 {
                     "fname": "hc/zastavka_Jack_Otem.jpg",
                     "descr": "заставка: Джек Отем",
-                    "htags": ["заставки"],
+                    "htags": ["заставки", "осень"],
                     "created": "2018-11-08"
                 },			
                 {
@@ -133,8 +331,8 @@
                 },	                
                 {
                     "fname": "hc/monsters_strannik_osen.jpg",
-                    "descr": "странник бой осень",
-                    "htags": ["монстры"],
+                    "descr": "странник бой",
+                    "htags": ["монстры", "осень"],
                     "created": "2018-11-05"
                 },				
                 {
@@ -146,7 +344,7 @@
                 {
                     "fname": "hc/Julliet_osen.jpg",
                     "descr": "Джульетта осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-05"
                 },				
                 {
@@ -157,50 +355,50 @@
                 },				
                 {
                     "fname": "hc/osen_letter_come.jpg",
-                    "descr": "письмо пришло",
-                    "htags": ["письма"],
+                    "descr": "письмо осень",
+                    "htags": ["разное", "осень"],
                     "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/Inspector_osen.jpg",
                     "descr": "инспектор осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/lavka_zaryadok_osen.jpg",
                     "descr": "лавка зарядок осень",
-                    "htags": ["разное"],
+                    "htags": ["разное", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/mini_game_raskopki_osen.jpg",
                     "descr": "раскопки осень",
-                    "htags": ["мини игры"],
+                    "htags": ["мини игры", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/ladya_izobiliya.jpg",
                     "descr": "ладья изобилия",
-                    "htags": ["разное"],
+                    "htags": ["разное", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/Provodnik_osen.jpg",
                     "descr": "проводник осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/Valeri_osen.jpg",
                     "descr": "Валери осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/osen_uspeh.jpg",
                     "descr": "успех осень",
-                    "htags": ["разное"],
+                    "htags": ["разное", "осень"],
                     "created": "2018-11-05"
                 },				
                 {
@@ -218,7 +416,7 @@
                 {
                     "fname": "hc/Izabel_osen.jpg",
                     "descr": "Изабель осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
@@ -230,13 +428,13 @@
                 {
                     "fname": "hc/Marta_osen.jpg",
                     "descr": "Марта осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-05"
                 },				
                 {
                     "fname": "hc/5_chudes_oseni_.jpg",
                     "descr": "пять чудес осени",
-                    "htags": ["разное"],
+                    "htags": ["разное", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
@@ -248,19 +446,19 @@
                 {
                     "fname": "hc/mer_osen.jpg",
                     "descr": "мэр осень",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/5_chudes_oseni.jpg",
                     "descr": "пять чудес осени",
-                    "htags": ["разное"],
+                    "htags": ["разное", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
                     "fname": "hc/zastavka_Jill_Autumn.jpg",
                     "descr": "заставка: Джил Отем",
-                    "htags": ["заставки"],
+                    "htags": ["заставки", "осень"],
                     "created": "2018-11-05"
                 },			
                 {
@@ -302,7 +500,7 @@
                 {
                     "fname": "hc/Izabel_helloween.jpg",
                     "descr": "Изабель хэллоуин",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "хэллоуин"],
                     "created": "2018-10-18"
                 },
                 {
@@ -368,7 +566,7 @@
                 {
                     "fname": "hc/Julliet_helloween.jpg",
                     "descr": "Джульетта хэллоуин",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "хэллоуин"],
                     "created": "2018-10-08"
                 },
                 {
@@ -380,19 +578,19 @@
                 {
                     "fname": "hc/Detectiv_helloween.jpg",
                     "descr": "детектив хэллоуин",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи", "хэллоуин"],
                     "created": "2018-10-08"
                 },
                 {
                     "fname": "hc/helloween_letter_come.jpg",
                     "descr": "письмо хэллоуин",
-                    "htags": ["письма"],
+                    "htags": ["разное", "хэллоуин"],
                     "created": "2018-10-08"
                 },
                 {
                     "fname": "hc/lavka_zaryadok_helloween.jpg",
                     "descr": "лавка зарядок хэллоуин",
-                    "htags": ["разное"],
+                    "htags": ["разное", "хэллоуин"],
                     "created": "2018-10-03"
                 },
                 {
@@ -409,8 +607,8 @@
                 },
                 {
                     "fname": "hc/success_helloween.jpg",
-                    "descr": "успех Хеллоуин",
-                    "htags": ["разное"],
+                    "descr": "успех хеллоуин",
+                    "htags": ["разное", "хэллоуин"],
                     "created": "2018-10-01"
                 },
                 {
@@ -428,7 +626,7 @@
                 {
                     "fname": "hc/mini_game_raskopki_heloween.jpg",
                     "descr": "раскопки хэллоуин",
-                    "htags": ["мини игры"],
+                    "htags": ["мини игры", "хэллоуин"],
                     "created": "2018-10-01"
                 },
                 {
@@ -476,12 +674,12 @@
                 {
                     "fname": "hc/helloween_anonce.jpg",
                     "descr": "близится Хеллоуин",
-                    "htags": ["разное"],
+                    "htags": ["разное", "хэллоуин"],
                     "created": "2018-10-01"
                 },
                 {
                     "fname": "hc/zastavka_trio.jpg",
-                    "descr": "заставка",
+                    "descr": "заставка: трио",
                     "htags": ["заставки"],
                     "created": "2018-10-01"
                 },
@@ -716,7 +914,7 @@
                 {
                     "fname": "hc/monsters_boy.jpg",
                     "descr": "бой с монстром",
-                    "htags": ["разное", "монстры"],
+                    "htags": ["монстры"],
                     "created": "2018-08-22"
                 },
                 {
@@ -4181,7 +4379,7 @@
                 },
                 {
                     "fname": "ma/pinguin_sladkoezhka.jpg",
-                    "descr": "пингвин-сладкоежка",
+                    "descr": "пингвин-ледоежка",
                     "htags": ["рождество", "пингвины"],
                     "created": "2017-12-12"
                 },
