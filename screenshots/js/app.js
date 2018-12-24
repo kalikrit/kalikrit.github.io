@@ -18,6 +18,24 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/letter_23.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2018-12-24"
+                },
+                {
+                    "fname": "hc/letter_22.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2018-12-21"
+                },                
+                {
+                    "fname": "hc/room_park_anjely.jpg",
+                    "descr": "парк Анжелы",
+                    "htags": ["комнаты"],
+                    "created": "2018-12-21"
+                },                
+                {
                     "fname": "hc/Provodnik_zima.jpg",
                     "descr": "проводник зима",
                     "htags": ["персонажи", "зима"],
@@ -1081,6 +1099,12 @@
                 }
             ],
             "mm": [
+                {
+                    "fname": "mm/MariToma.jpg",
+                    "descr": "Мари Тома",
+                    "htags": ["персонажи"],
+                    "created": "2018-12-19"
+                },                  
                 {
                     "fname": "mm/TobiMercator.jpg",
                     "descr": "Тоби Меркатор",
