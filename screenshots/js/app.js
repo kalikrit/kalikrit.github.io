@@ -16,7 +16,19 @@
         { "name": "Hidden City", "alias": "hc" }];
 
         let images_json = {
-            "hc": [
+            "hc": [               
+                {
+                    "fname": "hc/Lyumika.jpg",
+                    "descr": "Люмика",
+                    "htags": ["персонажи"],
+                    "created": "2018-12-29"
+                },                 
+                {
+                    "fname": "hc/monah.jpg",
+                    "descr": "монах",
+                    "htags": ["персонажи"],
+                    "created": "2018-12-26"
+                },                
                 {
                     "fname": "hc/letter_23.jpg",
                     "descr": "письмо",
@@ -31,7 +43,7 @@
                 },                
                 {
                     "fname": "hc/room_park_anjely.jpg",
-                    "descr": "парк Анжелы",
+                    "descr": "парк Анджелы",
                     "htags": ["комнаты"],
                     "created": "2018-12-21"
                 },                
@@ -58,7 +70,13 @@
                     "descr": "лаборатория",
                     "htags": ["комнаты"],
                     "created": "2018-12-09"
-                },			
+                },
+                {
+                    "fname": "hc/otkrytka_proyavlyaecca.jpg",
+                    "descr": "рождественская открытка",
+                    "htags": ["разное","зима"],
+                    "created": "2018-12-09"
+                },                  			
                 {
                     "fname": "hc/rozhdest_otkrytka.jpg",
                     "descr": "рождественская открытка",
@@ -1099,6 +1117,54 @@
                 }
             ],
             "mm": [
+                {
+                    "fname": "mm/dikarka.jpg",
+                    "descr": "дикарка",
+                    "htags": ["додвал"],
+                    "created": "2018-12-27"
+                },
+                {
+                    "fname": "mm/detenysh_pandy.jpg",
+                    "descr": "детёныш панды",
+                    "htags": ["второй этаж"],
+                    "created": "2018-12-27"
+                },                
+                {
+                    "fname": "mm/animashka_Evridika.jpg",
+                    "descr": "анимашка Эвридика",
+                    "htags": ["анимашки","второй этаж"],
+                    "created": "2018-12-27"
+                },
+                {
+                    "fname": "mm/animashka_Ginn.jpg",
+                    "descr": "анимашка Джинн",
+                    "htags": ["анимашки","второй этаж"],
+                    "created": "2018-12-27"
+                },
+                {
+                    "fname": "mm/animashka_Grigorii.jpg",
+                    "descr": "анимашка Григорий",
+                    "htags": ["анимашки","второй этаж"],
+                    "created": "2018-12-27"
+                },
+                {
+                    "fname": "mm/animashka_Katerina.jpg",
+                    "descr": "анимашка Катерина",
+                    "htags": ["анимашки","второй этаж"],
+                    "created": "2018-12-27"
+                },
+                {
+                    "fname": "mm/room_studiya_multiplikatora.jpg",
+                    "descr": "студия мультипликатора",
+                    "htags": ["комнаты","второй этаж"],
+                    "created": "2018-12-27"
+                },
+                {
+                    "fname": "mm/ReneBakkar.jpg",
+                    "descr": "Рене Баккар",
+                    "htags": ["персонажи"],
+                    "created": "2018-12-26"
+                },                 
                 {
                     "fname": "mm/MariToma.jpg",
                     "descr": "Мари Тома",
