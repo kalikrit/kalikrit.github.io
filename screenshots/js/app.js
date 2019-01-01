@@ -16,7 +16,25 @@
         { "name": "Hidden City", "alias": "hc" }];
 
         let images_json = {
-            "hc": [               
+            "hc": [
+                {
+                    "fname": "hc/room_pristan.jpg",
+                    "descr": "пристань",
+                    "htags": ["комнаты"],
+                    "created": "2018-12-30"
+                },                
+                {
+                    "fname": "hc/letter_25.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2018-12-30"
+                },                
+                {
+                    "fname": "hc/letter_24.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2018-12-30"
+                },                
                 {
                     "fname": "hc/Lyumika.jpg",
                     "descr": "Люмика",
