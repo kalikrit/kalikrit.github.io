@@ -18,6 +18,114 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/letter_27.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2019-1-2"
+                }, 
+                {
+                    "fname": "hc/Shuler_chng.jpg",
+                    "descr": "шулер кнг",
+                    "htags": ["персонажи"],
+                    "created": "2019-1-2"
+                },                
+                {
+                    "fname": "hc/letter_26.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2019-1-2"
+                }, 
+                {
+                    "fname": "hc/chng_letter_come.jpg",
+                    "descr": "письмо кнг",
+                    "htags": ["разное"],
+                    "created": "2019-1-2"
+                },                
+                {
+                    "fname": "hc/Marta_chng.jpg",
+                    "descr": "Марта кнг",
+                    "htags": ["персонажи"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/Yui.jpg",
+                    "descr": "Юи",
+                    "htags": ["персонажи"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/monsters_strannik_chng.jpg",
+                    "descr": "странник кнг",
+                    "htags": ["монстры"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/pagoda_legend.jpg",
+                    "descr": "пагода легенд вход",
+                    "htags": ["разное"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/uspeh_chng.jpg",
+                    "descr": "успех кнг",
+                    "htags": ["разное"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/lavka_zaryadok_chng.jpg",
+                    "descr": "лавка зарядок кнг",
+                    "htags": ["разное"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/lodka_schastya.jpg",
+                    "descr": "лодка счастья",
+                    "htags": ["разное"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/Detectiv_chng.jpg",
+                    "descr": "Детектив кнг",
+                    "htags": ["персонажи"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/room_pagoda_legend.jpg",
+                    "descr": "пагода легенд",
+                    "htags": ["комнаты"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/hraniteli_legend.jpg",
+                    "descr": "хранители легенд",
+                    "htags": ["разное"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/hc_chng.jpg",
+                    "descr": "Hidden City кнг",
+                    "htags": ["разное"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/Valeri_chng.jpg",
+                    "descr": "Валери кнг",
+                    "htags": ["персонажи"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/pobeditel_buri.jpg",
+                    "descr": "повелитель бури",
+                    "htags": ["разное"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/zastavka_chinees_ng.jpg",
+                    "descr": "заставка: красавица Джинг",
+                    "htags": ["заставки"],
+                    "created": "2019-1-2"
+                },                
+                {
                     "fname": "hc/room_pristan.jpg",
                     "descr": "пристань",
                     "htags": ["комнаты"],
