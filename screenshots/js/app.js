@@ -34,13 +34,13 @@
                     "descr": "письмо",
                     "htags": ["письма"],
                     "created": "2019-1-2"
-                }, 
+                },               
                 {
                     "fname": "hc/chng_letter_come.jpg",
                     "descr": "письмо кнг",
                     "htags": ["разное"],
                     "created": "2019-1-2"
-                },                
+                },                             
                 {
                     "fname": "hc/Marta_chng.jpg",
                     "descr": "Марта кнг",
@@ -116,6 +116,18 @@
                 {
                     "fname": "hc/pobeditel_buri.jpg",
                     "descr": "повелитель бури",
+                    "htags": ["разное"],
+                    "created": "2019-1-2"
+                },
+                {
+                    "fname": "hc/letter_28.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2019-1-2"
+                },                  
+                {
+                    "fname": "hc/letter_chng.jpg",
+                    "descr": "письмо кнг",
                     "htags": ["разное"],
                     "created": "2019-1-2"
                 },
