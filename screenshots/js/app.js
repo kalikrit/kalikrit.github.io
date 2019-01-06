@@ -1269,6 +1269,18 @@
             ],
             "mm": [
                 {
+                    "fname": "mm/general_snytchinov_geroik_pobeda.jpg",
+                    "descr": "генерал снэтчинов: вылечили героик",
+                    "htags": ["двор","бой"],
+                    "created": "2019-1-6"
+                }, 
+                {
+                    "fname": "mm/general_snytchinov_geroik_healing.jpg",
+                    "descr": "генерал снэтчинов: лечение героик",
+                    "htags": ["двор","бой"],
+                    "created": "2019-1-6"
+                },                  
+                {
                     "fname": "mm/snytch_narushitel_spokoystviya.jpg",
                     "descr": "нарушитель спокойствия",
                     "htags": ["подвал","снэтчины"],
@@ -2651,13 +2663,13 @@
                 {
                     "fname": "mm/general_snytchinov.jpg",
                     "descr": "генерал снэтчинов: добрый Генерал",
-                    "htags": ["снэтчины"],
+                    "htags": ["двор","бой"],
                     "created": "2016-11-26"
                 },
                 {
                     "fname": "mm/general_snytchinov_2.jpg",
                     "descr": "генерал снэтчинов: больной Генерал",
-                    "htags": ["снэтчины"],
+                    "htags": ["двор","бой"],
                     "created": "2016-11-26"
                 },
                 {
