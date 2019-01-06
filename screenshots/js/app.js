@@ -18,6 +18,24 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/zastavka_smotritel_pagody.jpg",
+                    "descr": "заставка: смотритель пагоды",
+                    "htags": ["заставки"],
+                    "created": "2019-1-4"
+                },                
+                {
+                    "fname": "hc/strannik_boy_chng.jpg",
+                    "descr": "странник бой",
+                    "htags": ["монстры","кнг"],
+                    "created": "2019-1-4"
+                },                
+                {
+                    "fname": "hc/letter_29.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2019-1-4"
+                },                 
+                {
                     "fname": "hc/letter_27.jpg",
                     "descr": "письмо",
                     "htags": ["письма"],
@@ -26,7 +44,7 @@
                 {
                     "fname": "hc/Shuler_chng.jpg",
                     "descr": "шулер кнг",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи","кнг"],
                     "created": "2019-1-2"
                 },                
                 {
@@ -38,13 +56,13 @@
                 {
                     "fname": "hc/chng_letter_come.jpg",
                     "descr": "письмо кнг",
-                    "htags": ["разное"],
+                    "htags": ["разное","кнг"],
                     "created": "2019-1-2"
                 },                             
                 {
                     "fname": "hc/Marta_chng.jpg",
                     "descr": "Марта кнг",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи","кнг"],
                     "created": "2019-1-2"
                 },
                 {
@@ -53,12 +71,7 @@
                     "htags": ["персонажи"],
                     "created": "2019-1-2"
                 },
-                {
-                    "fname": "hc/monsters_strannik_chng.jpg",
-                    "descr": "странник кнг",
-                    "htags": ["монстры"],
-                    "created": "2019-1-2"
-                },
+
                 {
                     "fname": "hc/pagoda_legend.jpg",
                     "descr": "пагода легенд вход",
@@ -68,25 +81,25 @@
                 {
                     "fname": "hc/uspeh_chng.jpg",
                     "descr": "успех кнг",
-                    "htags": ["разное"],
+                    "htags": ["разное","кнг"],
                     "created": "2019-1-2"
                 },
                 {
                     "fname": "hc/lavka_zaryadok_chng.jpg",
                     "descr": "лавка зарядок кнг",
-                    "htags": ["разное"],
+                    "htags": ["разное","кнг"],
                     "created": "2019-1-2"
                 },
                 {
                     "fname": "hc/lodka_schastya.jpg",
                     "descr": "лодка счастья",
-                    "htags": ["разное"],
+                    "htags": ["разное","кнг"],
                     "created": "2019-1-2"
                 },
                 {
                     "fname": "hc/Detectiv_chng.jpg",
                     "descr": "Детектив кнг",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи","кнг"],
                     "created": "2019-1-2"
                 },
                 {
@@ -98,25 +111,25 @@
                 {
                     "fname": "hc/hraniteli_legend.jpg",
                     "descr": "хранители легенд",
-                    "htags": ["разное"],
+                    "htags": ["разное","кнг"],
                     "created": "2019-1-2"
                 },
                 {
                     "fname": "hc/hc_chng.jpg",
                     "descr": "Hidden City кнг",
-                    "htags": ["разное"],
+                    "htags": ["разное","кнг"],
                     "created": "2019-1-2"
                 },
                 {
                     "fname": "hc/Valeri_chng.jpg",
                     "descr": "Валери кнг",
-                    "htags": ["персонажи"],
+                    "htags": ["персонажи","кнг"],
                     "created": "2019-1-2"
                 },
                 {
                     "fname": "hc/pobeditel_buri.jpg",
                     "descr": "повелитель бури",
-                    "htags": ["разное"],
+                    "htags": ["разное","кнг"],
                     "created": "2019-1-2"
                 },
                 {
@@ -128,7 +141,7 @@
                 {
                     "fname": "hc/letter_chng.jpg",
                     "descr": "письмо кнг",
-                    "htags": ["разное"],
+                    "htags": ["разное","кнг"],
                     "created": "2019-1-2"
                 },
                 {
@@ -1256,9 +1269,21 @@
             ],
             "mm": [
                 {
+                    "fname": "mm/snytch_narushitel_spokoystviya.jpg",
+                    "descr": "нарушитель спокойствия",
+                    "htags": ["подвал","снэтчины"],
+                    "created": "2019-1-5"
+                },  
+                {
+                    "fname": "mm/snytch_lyubitel_pirotehniki.jpg",
+                    "descr": "любитель пиротехники",
+                    "htags": ["подвал","снэтчины"],
+                    "created": "2019-1-5"
+                },                
+                {
                     "fname": "mm/dikarka.jpg",
                     "descr": "дикарка",
-                    "htags": ["додвал"],
+                    "htags": ["подвал"],
                     "created": "2018-12-27"
                 },
                 {
