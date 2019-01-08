@@ -18,6 +18,24 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/letter_30.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2019-1-8"
+                },
+                {
+                    "fname": "hc/room_maskarad_jacka.jpg",
+                    "descr": "маскарад Джека",
+                    "htags": ["комнаты"],
+                    "created": "2019-1-8"
+                }, 
+                {
+                    "fname": "hc/Emma.jpg",
+                    "descr": "Эмма",
+                    "htags": ["персонажи"],
+                    "created": "2019-1-8"
+                },                 
+                {
                     "fname": "hc/zastavka_smotritel_pagody.jpg",
                     "descr": "заставка: смотритель пагоды",
                     "htags": ["заставки"],
@@ -1268,6 +1286,12 @@
                 }
             ],
             "mm": [
+                {
+                    "fname": "mm/KamillaFlavor.jpg",
+                    "descr": "Камилла Флавор",
+                    "htags": ["персонажи","второй этаж"],
+                    "created": "2019-1-7"
+                },                 
                 {
                     "fname": "mm/general_snytchinov_geroik_pobeda.jpg",
                     "descr": "генерал снэтчинов: вылечили героик",
