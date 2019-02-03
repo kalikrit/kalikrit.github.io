@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Моя статистика 2018</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" src="css/dygraph.min.css" />
+		<script src="js/dygraph.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+    <section id="header">
+        <div class="container">
+            <h2>Моя статистика</h2>
+        </div>
+    </section>    
+    <section id="main">    
+        <div class="container">
+            <div class="row clearfix">
+                <div class="col-md-12">
+                    <h3>Расходы по некоторым категориям за 2018 год</h3>
+                </div>
+            </div>
+            <div class="row clearfix">
+                <canvas id="rash" width="400" height="200"></canvas>
+            </div>
+			<div class="row clearfix">
+                <div class="col-md-12">
+                    <h3>Суммарные расходы по месяцам за 2018 год</h3>
+                </div>
+            </div>
+			<div class="row clearfix">
+                <canvas id="sum_rash_month" width="400" height="200"></canvas>
+            </div>			
+			<div class="row clearfix">
+                <div class="col-md-12">
+                    <h3>Суммарные расходы по категориям за 2018 год</h3>
+                    <h4>Общая сумма:<span id="total"></span></h4>
+                </div>
+            </div>
+			<div class="row clearfix">
+                <canvas id="rash_pie" width="400" height="200"></canvas>
+            </div>
+			<!--div class="row clearfix">
+				<div class="col-md-12" id="kurse"></div>
+			</div-->
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+                <p>Разработчик: <span><a href="https://vk.com/id20055458" target="_blank">Константин Кононенко</a></span></p> 
+            </div>
+        </div>
+        </div>
+    </section>
+        <script src="js/Chart.min.js"></script>
+        <script src="js/main.js"></script>
+		<script src="js/kurs_e.js"></script>
+    </body>
+</html>
