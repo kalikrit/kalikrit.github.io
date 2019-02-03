@@ -18,155 +18,167 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/room_grobnica_rycarya.jpg",
+                    "descr": "гробница рыцаря",
+                    "htags": ["комнаты"],
+                    "created": "2019-01-27"
+                },  
+                {
+                    "fname": "hc/room_kollektor.jpg",
+                    "descr": "коллектор",
+                    "htags": ["комнаты"],
+                    "created": "2019-01-19"
+                },                
+                {
                     "fname": "hc/letter_30.jpg",
                     "descr": "письмо",
                     "htags": ["письма"],
-                    "created": "2019-1-8"
+                    "created": "2019-01-08"
                 },
                 {
                     "fname": "hc/room_maskarad_jacka.jpg",
                     "descr": "маскарад Джека",
                     "htags": ["комнаты"],
-                    "created": "2019-1-8"
+                    "created": "2019-01-08"
                 }, 
                 {
                     "fname": "hc/Emma.jpg",
                     "descr": "Эмма",
                     "htags": ["персонажи"],
-                    "created": "2019-1-8"
+                    "created": "2019-01-08"
                 },                 
                 {
                     "fname": "hc/zastavka_smotritel_pagody.jpg",
                     "descr": "заставка: смотритель пагоды",
                     "htags": ["заставки"],
-                    "created": "2019-1-4"
+                    "created": "2019-01-04"
                 },                
                 {
                     "fname": "hc/strannik_boy_chng.jpg",
                     "descr": "странник бой",
                     "htags": ["монстры","кнг"],
-                    "created": "2019-1-4"
+                    "created": "2019-01-04"
                 },                
                 {
                     "fname": "hc/letter_29.jpg",
                     "descr": "письмо",
                     "htags": ["письма"],
-                    "created": "2019-1-4"
+                    "created": "2019-01-04"
                 },                 
                 {
                     "fname": "hc/letter_27.jpg",
                     "descr": "письмо",
                     "htags": ["письма"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 }, 
                 {
                     "fname": "hc/Shuler_chng.jpg",
                     "descr": "шулер кнг",
                     "htags": ["персонажи","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },                
                 {
                     "fname": "hc/letter_26.jpg",
                     "descr": "письмо",
                     "htags": ["письма"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },               
                 {
                     "fname": "hc/chng_letter_come.jpg",
                     "descr": "письмо кнг",
                     "htags": ["разное","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },                             
                 {
                     "fname": "hc/Marta_chng.jpg",
                     "descr": "Марта кнг",
                     "htags": ["персонажи","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/Yui.jpg",
                     "descr": "Юи",
                     "htags": ["персонажи"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
 
                 {
                     "fname": "hc/pagoda_legend.jpg",
                     "descr": "пагода легенд вход",
                     "htags": ["разное"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/uspeh_chng.jpg",
                     "descr": "успех кнг",
                     "htags": ["разное","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/lavka_zaryadok_chng.jpg",
                     "descr": "лавка зарядок кнг",
                     "htags": ["разное","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/lodka_schastya.jpg",
                     "descr": "лодка счастья",
                     "htags": ["разное","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/Detectiv_chng.jpg",
                     "descr": "Детектив кнг",
                     "htags": ["персонажи","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/room_pagoda_legend.jpg",
                     "descr": "пагода легенд",
                     "htags": ["комнаты"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/hraniteli_legend.jpg",
                     "descr": "хранители легенд",
                     "htags": ["разное","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/hc_chng.jpg",
                     "descr": "Hidden City кнг",
                     "htags": ["разное","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/Valeri_chng.jpg",
                     "descr": "Валери кнг",
                     "htags": ["персонажи","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/pobeditel_buri.jpg",
                     "descr": "повелитель бури",
                     "htags": ["разное","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/letter_28.jpg",
                     "descr": "письмо",
                     "htags": ["письма"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },                  
                 {
                     "fname": "hc/letter_chng.jpg",
                     "descr": "письмо кнг",
                     "htags": ["разное","кнг"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },
                 {
                     "fname": "hc/zastavka_chinees_ng.jpg",
                     "descr": "заставка: красавица Джинг",
                     "htags": ["заставки"],
-                    "created": "2019-1-2"
+                    "created": "2019-01-02"
                 },                
                 {
                     "fname": "hc/room_pristan.jpg",
@@ -1290,31 +1302,31 @@
                     "fname": "mm/KamillaFlavor.jpg",
                     "descr": "Камилла Флавор",
                     "htags": ["персонажи","второй этаж"],
-                    "created": "2019-1-7"
+                    "created": "2019-01-07"
                 },                 
                 {
                     "fname": "mm/general_snytchinov_geroik_pobeda.jpg",
                     "descr": "генерал снэтчинов: вылечили героик",
                     "htags": ["двор","бой"],
-                    "created": "2019-1-6"
+                    "created": "2019-01-06"
                 }, 
                 {
                     "fname": "mm/general_snytchinov_geroik_healing.jpg",
                     "descr": "генерал снэтчинов: лечение героик",
                     "htags": ["двор","бой"],
-                    "created": "2019-1-6"
+                    "created": "2019-01-06"
                 },                  
                 {
                     "fname": "mm/snytch_narushitel_spokoystviya.jpg",
                     "descr": "нарушитель спокойствия",
                     "htags": ["подвал","снэтчины"],
-                    "created": "2019-1-5"
+                    "created": "2019-01-05"
                 },  
                 {
                     "fname": "mm/snytch_lyubitel_pirotehniki.jpg",
                     "descr": "любитель пиротехники",
                     "htags": ["подвал","снэтчины"],
-                    "created": "2019-1-5"
+                    "created": "2019-01-05"
                 },                
                 {
                     "fname": "mm/dikarka.jpg",
