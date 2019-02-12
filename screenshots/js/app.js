@@ -18,6 +18,84 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/mistiki.jpg",
+                    "descr": "мистики",
+                    "htags": ["разное","колокол душ"],
+                    "created": "2019-02-12"
+                }, 
+                {
+                    "fname": "hc/zastavka_pohititel_dush.jpg",
+                    "descr": "заставка: похититель душ",
+                    "htags": ["заставки"],
+                    "created": "2019-02-12"
+                },                 
+                {
+                    "fname": "hc/raskopki_kd.jpg",
+                    "descr": "раскопки колокол душ",
+                    "htags": ["мини игры","колокол душ"],
+                    "created": "2019-02-12"
+                },                
+                {
+                    "fname": "hc/tainstvennye_shkatulki.jpg",
+                    "descr": "таинственные шкатулки",
+                    "htags": ["разное","колокол душ"],
+                    "created": "2019-02-12"
+                },
+                {
+                    "fname": "hc/tainik_proricatelya.jpg",
+                    "descr": "тайник прорицателя",
+                    "htags": ["разное","колокол душ"],
+                    "created": "2019-02-12"
+                },
+                {
+                    "fname": "hc/Julliet_kd.jpg",
+                    "descr": "Джульетта: колокол душ",
+                    "htags": ["персонажи","колокол душ"],
+                    "created": "2019-02-12"
+                },
+                {
+                    "fname": "hc/kolokol_dush.jpg",
+                    "descr": "колокол душ",
+                    "htags": ["разное","колокол душ"],
+                    "created": "2019-02-12"
+                },
+                {
+                    "fname": "hc/letter_32.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2019-02-12"
+                },
+                {
+                    "fname": "hc/moira.jpg",
+                    "descr": "мойра",
+                    "htags": ["персонажи"],
+                    "created": "2019-02-12"
+                },
+                {
+                    "fname": "hc/letter_31.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2019-02-12"
+                },
+                {
+                    "fname": "hc/room_obitel_charodeek.jpg",
+                    "descr": "обитель чародеек",
+                    "htags": ["комнаты"],
+                    "created": "2019-02-12"
+                }, 
+                {
+                    "fname": "hc/zastavka_moira.jpg",
+                    "descr": "заставка: мойра",
+                    "htags": ["заставки"],
+                    "created": "2019-02-12"
+                }, 
+                {
+                    "fname": "hc/room_yarmarka.jpg",
+                    "descr": "ярмарка",
+                    "htags": ["комнаты"],
+                    "created": "2019-02-10"
+                },                 
+                {
                     "fname": "hc/room_grobnica_rycarya.jpg",
                     "descr": "гробница рыцаря",
                     "htags": ["комнаты"],
