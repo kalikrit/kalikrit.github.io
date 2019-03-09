@@ -18,6 +18,132 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/letter_38.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","сакура"],
+                    "created": "2019-03-09"
+                },                
+                {
+                    "fname": "hc/Hozyaika_sakura.jpg",
+                    "descr": "хозяйка сакура",
+                    "htags": ["персонажи","сакура"],
+                    "created": "2019-03-09"
+                },
+                {
+                    "fname": "hc/monsters_boy_sakura.jpg",
+                    "descr": "монстры: бой",
+                    "htags": ["монстры","сакура"],
+                    "created": "2019-03-09"
+                },
+                {
+                    "fname": "hc/zastavka_master_origami.jpg",
+                    "descr": "заставка: мастер оригами",
+                    "htags": ["заставки","сакура"],
+                    "created": "2019-03-09"
+                }, 
+                {
+                    "fname": "hc/letter_37.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","сакура"],
+                    "created": "2019-03-09"
+                }, 
+                {
+                    "fname": "hc/lavka_zaryadok_sakura.jpg",
+                    "descr": "лавка зарядок",
+                    "htags": ["разное","сакура"],
+                    "created": "2019-03-09"
+                }, 
+                {
+                    "fname": "hc/raskopki_sakura.jpg",
+                    "descr": "раскопки",
+                    "htags": ["мини игры","сакура"],
+                    "created": "2019-03-08"
+                }, 
+                {
+                    "fname": "hc/uspeh_mini_igry.jpg",
+                    "descr": "мини игры: успех",
+                    "htags": ["мини игры","сакура"],
+                    "created": "2019-03-08"
+                }, 
+                {
+                    "fname": "hc/kamennyi_sunduk.jpg",
+                    "descr": "каменный сундук",
+                    "htags": ["разное","сакура"],
+                    "created": "2019-03-08"
+                },                
+                {
+                    "fname": "hc/hraniteli_tradicii.jpg",
+                    "descr": "хранители традиций",
+                    "htags": ["разное","сакура"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/sakura_i_zhuravl.jpg",
+                    "descr": "сакура и журавль",
+                    "htags": ["разное","сакура"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/Hanako.jpg",
+                    "descr": "госпожа Ханако",
+                    "htags": ["персонажи","сакура"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/uspeh_sakura.jpg",
+                    "descr": "успех",
+                    "htags": ["разное","сакура"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/room_chaynyi_domik.jpg",
+                    "descr": "чайный домик",
+                    "htags": ["комнаты","сакура"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/Detectiv_sakura.jpg",
+                    "descr": "Детектив сакура",
+                    "htags": ["персонажи","сакура"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/hc_sakura.jpg",
+                    "descr": "Hidden City Ханами Мацури",
+                    "htags": ["разное"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/letter_36.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/letter_sakura_come.jpg",
+                    "descr": "письмо пришло",
+                    "htags": ["разное","сакура"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/Julliet_sakura.jpg",
+                    "descr": "Джульетта сакура",
+                    "htags": ["персонажи","сакура"],
+                    "created": "2019-03-08"
+                },
+                {
+                    "fname": "hc/sakura.jpg",
+                    "descr": "сакура и журавль",
+                    "htags": ["разное","сакура"],
+                    "created": "2019-03-08"
+                }, 
+                {
+                    "fname": "hc/zastavka_hanako.jpg",
+                    "descr": "заставка: госпожа Ханако",
+                    "htags": ["заставки","сакура"],
+                    "created": "2019-03-08"
+                },                
+                {
                     "fname": "hc/room_rozhd_school.jpg",
                     "descr": "школа рождества",
                     "htags": ["комнаты"],
