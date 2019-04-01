@@ -18,6 +18,36 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/letter_40.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","сакура"],
+                    "created": "2019-03-16"
+                },                
+                {
+                    "fname": "hc/room_dvorec.jpg",
+                    "descr": "дворец",
+                    "htags": ["комнаты","сакура"],
+                    "created": "2019-03-23"
+                },
+                {
+                    "fname": "hc/sunduki_tansu.jpg",
+                    "descr": "сундуки тансу",
+                    "htags": ["разное","сакура"],
+                    "created": "2019-03-23"
+                },
+                {
+                    "fname": "hc/letter_39.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","сакура"],
+                    "created": "2019-03-16"
+                },
+                {
+                    "fname": "hc/Ohotnica_sakura.jpg",
+                    "descr": "охотница сакура",
+                    "htags": ["персонажи","сакура"],
+                    "created": "2019-03-11"
+                },                
+                {
                     "fname": "hc/letter_38.jpg",
                     "descr": "письмо",
                     "htags": ["письма","сакура"],
