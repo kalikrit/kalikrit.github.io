@@ -18,6 +18,138 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/zastavka_shuler_trio.jpg",
+                    "descr": "заставка: трио",
+                    "htags": ["заставки"],
+                    "created": "2019-04-06"
+                },
+                {
+                    "fname": "hc/zastavka_shuler.jpg",
+                    "descr": "заставка: шулер",
+                    "htags": ["заставки"],
+                    "created": "2019-04-06"
+                },
+                {
+                    "fname": "hc/zastavka_vesennii_strannik.jpg",
+                    "descr": "заставка: весенний странник",
+                    "htags": ["заставки","весна"],
+                    "created": "2019-04-05"
+                },
+                {
+                    "fname": "hc/Doroti_vesna.jpg",
+                    "descr": "Дороти весна",
+                    "htags": ["персонажи","весна"],
+                    "created": "2019-04-03"
+                },
+                {
+                    "fname": "hc/letter_42.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","весна"],
+                    "created": "2019-04-03"
+                },                
+                {
+                    "fname": "hc/zastavka_doroti_vesna.jpg",
+                    "descr": "заставка: Дороти весна",
+                    "htags": ["заставки","весна"],
+                    "created": "2019-04-03"
+                },
+                {
+                    "fname": "hc/Izabel_vesna.jpg",
+                    "descr": "Изабель весна",
+                    "htags": ["персонажи","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/pashalnaya_korzinka.jpg",
+                    "descr": "пасхальная корзинка",
+                    "htags": ["разное","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/deva_vesny.jpg",
+                    "descr": "дева весны",
+                    "htags": ["персонажи","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/pashalnye_sunduki.jpg",
+                    "descr": "пасхальные сундуки",
+                    "htags": ["разное","весна"],
+                    "created": "2019-04-01"
+                }, 
+                {
+                    "fname": "hc/monsters_oboroten_vesna.jpg",
+                    "descr": "оборотень",
+                    "htags": ["монстры","весна"],
+                    "created": "2019-04-01"
+                }, 
+                {
+                    "fname": "hc/Marta_vesna.jpg",
+                    "descr": "Марта весна",
+                    "htags": ["персонажи","весна"],
+                    "created": "2019-04-01"
+                },                
+                {
+                    "fname": "hc/uspeh_vesna.jpg",
+                    "descr": "успех весна",
+                    "htags": ["разное","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/room_pashalnyi_picnic.jpg",
+                    "descr": "пасхальный пикник",
+                    "htags": ["комнаты","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/gosti_vesennego_lesa.jpg",
+                    "descr": "гости весеннего леса",
+                    "htags": ["разное","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/zagadki_vesny_content.jpg",
+                    "descr": "загадки весны",
+                    "htags": ["разное","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/hc_vesna.jpg",
+                    "descr": "Hidden City весна",
+                    "htags": ["разное","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/letter_41.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/letter_spring_come.jpg",
+                    "descr": "письмо пришло",
+                    "htags": ["разное","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/klyuchnik_vesna.jpg",
+                    "descr": "ключник весна",
+                    "htags": ["персонажи","весна"],
+                    "created": "2019-04-01"
+                },
+                {
+                    "fname": "hc/zagadki_vesny.jpg",
+                    "descr": "загадки весны",
+                    "htags": ["разное","весна"],
+                    "created": "2019-04-01"
+                },  
+                {
+                    "fname": "hc/zastavka_hozyaika_lugov.jpg",
+                    "descr": "заставка: хозяйка лугов",
+                    "htags": ["заставки","весна"],
+                    "created": "2019-04-01"
+                },                 
+                {
                     "fname": "hc/letter_40.jpg",
                     "descr": "письмо",
                     "htags": ["письма","сакура"],
