@@ -18,6 +18,54 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/Piter_vesna.jpg",
+                    "descr": "Питер весна",
+                    "htags": ["персонажи","весна"],
+                    "created": "2019-04-17"
+                },
+                {
+                    "fname": "hc/Ohotnica_vesna.jpg",
+                    "descr": "Охотница весна",
+                    "htags": ["персонажи","весна"],
+                    "created": "2019-04-15"
+                },
+                {
+                    "fname": "hc/room_osobnyak.jpg",
+                    "descr": "особняк",
+                    "htags": ["комнаты","весна"],
+                    "created": "2019-04-14"
+                },                 
+                {
+                    "fname": "hc/letter_45.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","весна"],
+                    "created": "2019-04-14"
+                },  
+                {
+                    "fname": "hc/furgon_s_vypechkoi.jpg",
+                    "descr": "фургон с выпечкой",
+                    "htags": ["разное"],
+                    "created": "2019-04-14"
+                },                
+                {
+                    "fname": "hc/letter_44.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","весна"],
+                    "created": "2019-04-13"
+                },
+                {
+                    "fname": "hc/letter_43.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","весна"],
+                    "created": "2019-04-13"
+                }, 
+                {
+                    "fname": "hc/monsters_boy_vesna.jpg",
+                    "descr": "монстры: бой",
+                    "htags": ["монстры", "весна"],
+                    "created": "2019-04-06"
+                },                
+                {
                     "fname": "hc/zastavka_shuler_trio.jpg",
                     "descr": "заставка: трио",
                     "htags": ["заставки"],
