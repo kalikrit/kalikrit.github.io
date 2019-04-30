@@ -18,6 +18,96 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/zastavka_molchun.jpg",
+                    "descr": "заставка: Джонни Молчун",
+                    "htags": ["заставки","мистический турнир"],
+                    "created": "2019-04-30"
+                },
+                {
+                    "fname": "hc/igrovye_sunduki.jpg",
+                    "descr": "игровые сундуки",
+                    "htags": ["разное","мистический турнир"],
+                    "created": "2019-04-30"
+                },
+                {
+                    "fname": "hc/monsters_oboroten_mt.jpg",
+                    "descr": "оборотень",
+                    "htags": ["монстры","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/larec_trofei.jpg",
+                    "descr": "ларец с трофеями",
+                    "htags": ["разное","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/Detectiv_mt.jpg",
+                    "descr": "Детектив мистический турнир",
+                    "htags": ["персонажи","мистический турнир"],
+                    "created": "2019-04-29"
+                },                
+                {
+                    "fname": "hc/uspeh_mt.jpg",
+                    "descr": "успех",
+                    "htags": ["разное","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/room_cafe_red_rose_mt.jpg",
+                    "descr": "кафе Red Rose",
+                    "htags": ["комнаты","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/Shuler_mt.jpg",
+                    "descr": "Шулер мистический турнир",
+                    "htags": ["персонажи","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/hc_mt.jpg",
+                    "descr": "Hidden City мистический турнир",
+                    "htags": ["разное","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/uchastniki_mt.jpg",
+                    "descr": "участники мистического турнира",
+                    "htags": ["разное","мистический турнир"],
+                    "created": "2019-04-29"
+                },                
+                {
+                    "fname": "hc/misti4eskii_turnir_akciya.jpg",
+                    "descr": "мистический турнир",
+                    "htags": ["разное","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/letter_46.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/mt_letter_come.jpg",
+                    "descr": "письмо пришло",
+                    "htags": ["разное","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/misti4eskii_turnir.jpg",
+                    "descr": "мистический турнир",
+                    "htags": ["разное","мистический турнир"],
+                    "created": "2019-04-29"
+                },
+                {
+                    "fname": "hc/zastavka_roksi.jpg",
+                    "descr": "заставка: Рокси Кураж",
+                    "htags": ["заставки","мистический турнир"],
+                    "created": "2019-04-29"
+                },                
+                {
                     "fname": "hc/Piter_vesna.jpg",
                     "descr": "Питер весна",
                     "htags": ["персонажи","весна"],
@@ -1736,6 +1826,12 @@
                 }
             ],
             "mm": [
+                {
+                    "fname": "mm/lyubitel_pirotehniki.jpg",
+                    "descr": "любитель пиротехники",
+                    "htags": ["снэтчины","подвал"],
+                    "created": "2019-04-27"
+                },                 
                 {
                     "fname": "mm/KamillaFlavor.jpg",
                     "descr": "Камилла Флавор",
