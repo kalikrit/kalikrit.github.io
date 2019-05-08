@@ -18,6 +18,36 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/letter_49.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","мистический турнир"],
+                    "created": "2019-05-08"
+                }, 
+                {
+                    "fname": "hc/Ohotnica_mt.jpg",
+                    "descr": "охотница мистический турнир",
+                    "htags": ["персонажи","мистический турнир"],
+                    "created": "2019-05-08"
+                }, 
+                {
+                    "fname": "hc/room_yaponskii_sad.jpg",
+                    "descr": "японский сад",
+                    "htags": ["комнаты","мистический турнир"],
+                    "created": "2019-05-08"
+                }, 
+                {
+                    "fname": "hc/letter_48.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","мистический турнир"],
+                    "created": "2019-05-08"
+                },  
+                {
+                    "fname": "hc/letter_47.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","мистический турнир"],
+                    "created": "2019-04-30"
+                },                
+                {
                     "fname": "hc/zastavka_molchun.jpg",
                     "descr": "заставка: Джонни Молчун",
                     "htags": ["заставки","мистический турнир"],
@@ -115,7 +145,7 @@
                 },
                 {
                     "fname": "hc/Ohotnica_vesna.jpg",
-                    "descr": "Охотница весна",
+                    "descr": "охотница весна",
                     "htags": ["персонажи","весна"],
                     "created": "2019-04-15"
                 },
