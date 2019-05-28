@@ -18,6 +18,12 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/letter_50.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","мистический турнир"],
+                    "created": "2019-05-20"
+                },                
+                {
                     "fname": "hc/letter_49.jpg",
                     "descr": "письмо",
                     "htags": ["письма","мистический турнир"],
