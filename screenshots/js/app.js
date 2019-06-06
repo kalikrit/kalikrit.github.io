@@ -18,6 +18,90 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/room_secret_chamber.jpg",
+                    "descr": "тайная комната",
+                    "htags": ["комнаты","в плену таланта"],
+                    "created": "2019-06-05"
+                },  
+                {
+                    "fname": "hc/letter_52.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","в плену таланта"],
+                    "created": "2019-06-05"
+                },                
+                {
+                    "fname": "hc/sunduk_dramaturga.jpg",
+                    "descr": "сундук драматурга",
+                    "htags": ["разное","в плену таланта"],
+                    "created": "2019-06-01"
+                },
+                {
+                    "fname": "hc/sunduki_teatralnyh_roley.jpg",
+                    "descr": "сундуки театральных ролей",
+                    "htags": ["разное","в плену таланта"],
+                    "created": "2019-06-01"
+                },
+                {
+                    "fname": "hc/zastavka_Mary.jpg",
+                    "descr": "заставка: Мэри",
+                    "htags": ["заставки","в плену таланта"],
+                    "created": "2019-06-01"
+                },
+                {
+                    "fname": "hc/mini_game_volshebnye_predmety_ls.jpg",
+                    "descr": "волшебные предметы",
+                    "htags": ["мини игры","в плену таланта"],
+                    "created": "2019-06-01"
+                },
+                {
+                    "fname": "hc/Valeri_ls.jpg",
+                    "descr": "Валери в плену таланта",
+                    "htags": ["персонажи","в плену таланта"],
+                    "created": "2019-06-01"
+                },
+                {
+                    "fname": "hc/v_plenu_talanta.jpg",
+                    "descr": "в плену таланта",
+                    "htags": ["разное","в плену таланта"],
+                    "created": "2019-06-01"
+                },
+                {
+                    "fname": "hc/uspeh_ls.jpg",
+                    "descr": "успех",
+                    "htags": ["разное","в плену таланта"],
+                    "created": "2019-06-01"
+                },
+                {
+                    "fname": "hc/room_letnyaya_scena_teatra.jpg",
+                    "descr": "летняя сцена театра",
+                    "htags": ["комнаты","в плену таланта"],
+                    "created": "2019-06-01"
+                },                
+                {
+                    "fname": "hc/aktery.jpg",
+                    "descr": "актеры",
+                    "htags": ["разное","в плену таланта"],
+                    "created": "2019-06-01"
+                },
+                {
+                    "fname": "hc/letter_51.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","в плену таланта"],
+                    "created": "2019-05-31"
+                }, 
+                {
+                    "fname": "hc/v_plenu_talanta_anons.jpg",
+                    "descr": "в плену таланта",
+                    "htags": ["разное","в плену таланта"],
+                    "created": "2019-05-31"
+                }, 
+                {
+                    "fname": "hc/zastavka_William.jpg",
+                    "descr": "заставка: Уильям",
+                    "htags": ["заставки","в плену таланта"],
+                    "created": "2019-05-31"
+                },                
+                {
                     "fname": "hc/letter_50.jpg",
                     "descr": "письмо",
                     "htags": ["письма","мистический турнир"],
