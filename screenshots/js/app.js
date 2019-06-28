@@ -18,6 +18,48 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/room_angel2.jpg",
+                    "descr": "руины ангела",
+                    "htags": ["комнаты"],
+                    "created": "2019-06-28"
+                },
+                {
+                    "fname": "hc/letter_54.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","в плену таланта"],
+                    "created": "2019-06-23"
+                },                
+                {
+                    "fname": "hc/monstrologiya_room.jpg",
+                    "descr": "монстрология комната",
+                    "htags": ["разное","в плену таланта"],
+                    "created": "2019-06-15"
+                },
+                {
+                    "fname": "hc/monstrologiya_mp.jpg",
+                    "descr": "монстрология зарядка",
+                    "htags": ["разное","в плену таланта"],
+                    "created": "2019-06-15"
+                },                
+                {
+                    "fname": "hc/osnovy_monstrologii.jpg",
+                    "descr": "основы монстрологии",
+                    "htags": ["разное","в плену таланта"],
+                    "created": "2019-06-15"
+                },
+                {
+                    "fname": "hc/letter_53.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","в плену таланта"],
+                    "created": "2019-06-10"
+                },
+                {
+                    "fname": "hc/Bao.jpg",
+                    "descr": "Бао",
+                    "htags": ["персонажи","в плену таланта"],
+                    "created": "2019-06-07"
+                },                 
+                {
                     "fname": "hc/room_secret_chamber.jpg",
                     "descr": "тайная комната",
                     "htags": ["комнаты","в плену таланта"],
