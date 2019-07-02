@@ -18,6 +18,78 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/Inspector_ba.jpg",
+                    "descr": "Инспектор балетная академия",
+                    "htags": ["персонажи","балетная академия"],
+                    "created": "2019-07-02"
+                },
+                {
+                    "fname": "hc/zastavka_uchitel_tancev.jpg",
+                    "descr": "заставка: учитель танцев",
+                    "htags": ["заставки","балетная академия"],
+                    "created": "2019-07-02"
+                },
+                {
+                    "fname": "hc/sokrovischa_baleriny.jpg",
+                    "descr": "сокровища балерины",
+                    "htags": ["разное","балетная академия"],
+                    "created": "2019-07-01"
+                },
+                {
+                    "fname": "hc/antikvarnye_shkatulki.jpg",
+                    "descr": "антикварные шкатулки",
+                    "htags": ["разное","балетная академия"],
+                    "created": "2019-07-01"
+                },
+                {
+                    "fname": "hc/Julliet_ba.jpg",
+                    "descr": "Джульетта балетная академия",
+                    "htags": ["персонажи","балетная академия"],
+                    "created": "2019-07-01"
+                },                
+                {
+                    "fname": "hc/baletnaya_academiya_uspeh.jpg",
+                    "descr": "успех",
+                    "htags": ["разное","балетная академия"],
+                    "created": "2019-07-01"
+                },
+                {
+                    "fname": "hc/room_baletnaya_academiya.jpg",
+                    "descr": "балетная академия",
+                    "htags": ["комнаты","балетная академия"],
+                    "created": "2019-07-01"
+                },
+                {
+                    "fname": "hc/osnovateli_akademii.jpg",
+                    "descr": "основатели академии",
+                    "htags": ["разное","балетная академия"],
+                    "created": "2019-07-01"
+                },
+                {
+                    "fname": "hc/tanec_teney.jpg",
+                    "descr": "танец теней",
+                    "htags": ["разное","балетная академия"],
+                    "created": "2019-07-01"
+                },
+                {
+                    "fname": "hc/letter_55.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","балетная академия"],
+                    "created": "2019-07-01"
+                },
+                {
+                    "fname": "hc/tanec_teney_anons.jpg",
+                    "descr": "танец теней",
+                    "htags": ["разное","балетная академия"],
+                    "created": "2019-07-01"
+                },
+                {
+                    "fname": "hc/zastavka_chornyi_lebed.jpg",
+                    "descr": "заставка: Черный Лебедь",
+                    "htags": ["заставки","балетная академия"],
+                    "created": "2019-07-01"
+                },                
+                {
                     "fname": "hc/room_angel2.jpg",
                     "descr": "руины ангела",
                     "htags": ["комнаты"],
