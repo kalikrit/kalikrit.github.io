@@ -18,6 +18,18 @@
         let images_json = {
             "hc": [
                 {
+                    "fname": "hc/letter_56.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","балетная академия"],
+                    "created": "2019-07-25"
+                }, 
+                {
+                    "fname": "hc/hidden_city_ba.jpg",
+                    "descr": "Hidden city балетная академия",
+                    "htags": ["разное","балетная академия"],
+                    "created": "2019-07-08"
+                },                
+                {
                     "fname": "hc/Inspector_ba.jpg",
                     "descr": "Инспектор балетная академия",
                     "htags": ["персонажи","балетная академия"],
