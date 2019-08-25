@@ -17,6 +17,84 @@
 
         let images_json = {
             "hc": [
+               {
+                    "fname": "hc/sokrovisha_pescov.jpg",
+                    "descr": "сокровища песков",
+                    "htags": ["разное","сокровища песков"],
+                    "created": "2019-08-25"
+                }, 
+               {
+                    "fname": "hc/sluzhiteli_dvorca.jpg",
+                    "descr": "служители дворца",
+                    "htags": ["разное","сокровища песков"],
+                    "created": "2019-08-25"
+                }, 
+                {
+                    "fname": "hc/zast_hranitel_grez.jpg",
+                    "descr": "заставка: хранитель грез",
+                    "htags": ["заставки","сокровища песков"],
+                    "created": "2019-08-25"
+                },  
+                {
+                    "fname": "hc/room_dvorec_zhelanii.jpg",
+                    "descr": "дворец желаний",
+                    "htags": ["комнаты","сокровища песков"],
+                    "created": "2019-08-25"
+                },  
+                {
+                    "fname": "hc/chasha_podnoshenii.jpg",
+                    "descr": "чаша подношений",
+                    "htags": ["разное","сокровища песков"],
+                    "created": "2019-08-25"
+                },                  
+                {
+                    "fname": "hc/letter_59.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","сокровища песков"],
+                    "created": "2019-08-25"
+                },  
+                {
+                    "fname": "hc/letter_58.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","сокровища песков"],
+                    "created": "2019-08-25"
+                },                 
+                {
+                    "fname": "hc/sokrovischa_pescov_anons.jpg",
+                    "descr": "сокровища песков",
+                    "htags": ["разное","сокровища песков"],
+                    "created": "2019-08-25"
+                }, 
+                {
+                    "fname": "hc/sunduki_vostochnoi_skazki.jpg",
+                    "descr": "сундуки восточной сказки",
+                    "htags": ["разное","сокровища песков"],
+                    "created": "2019-08-25"
+                }, 
+                {
+                    "fname": "hc/zast_amina.jpg",
+                    "descr": "заставки: хозяйка желаний",
+                    "htags": ["заставки","сокровища песков"],
+                    "created": "2019-08-25"
+                }, 
+                {
+                    "fname": "hc/italyanskii_dvorik.jpg",
+                    "descr": "итальянский дворик",
+                    "htags": ["комнаты","сокровища песков"],
+                    "created": "2019-08-25"
+                }, 
+                {
+                    "fname": "hc/letter_57.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","сокровища песков"],
+                    "created": "2019-08-25"
+                }, 
+                {
+                    "fname": "hc/Amina.jpg",
+                    "descr": "Амина",
+                    "htags": ["персонажи","сокровища песков"],
+                    "created": "2019-08-25"
+                },                 
                 {
                     "fname": "hc/letter_56.jpg",
                     "descr": "письмо",
