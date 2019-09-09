@@ -17,6 +17,72 @@
 
         let images_json = {
             "hc": [
+                {
+                    "fname": "hc/dorozhnye_sunduki.jpg",
+                    "descr": "дорожные сундуки",
+                    "htags": ["разное","сквозь туман"],
+                    "created": "2019-09-09"
+                },                 
+                {
+                    "fname": "hc/professor_st.jpg",
+                    "descr": "профессор сквозь туман",
+                    "htags": ["персонажи","сквозь туман"],
+                    "created": "2019-09-09"
+                },  
+                {
+                    "fname": "hc/detektiv.jpg",
+                    "descr": "детектив сквозь туман",
+                    "htags": ["персонажи","сквозь туман"],
+                    "created": "2019-09-09"
+                },                
+                {
+                    "fname": "hc/kamera_hraneniya.jpg",
+                    "descr": "камера хранения",
+                    "htags": ["разное","сквозь туман"],
+                    "created": "2019-09-09"
+                },  
+                {
+                    "fname": "hc/hidden_city_st.jpg",
+                    "descr": "Hidden City сквозь туман",
+                    "htags": ["разное","сквозь туман"],
+                    "created": "2019-09-09"
+                },                
+                {
+                    "fname": "hc/room_stanciya_derizhabley.jpg",
+                    "descr": "станция дерижаблей",
+                    "htags": ["комнаты","сквозь туман"],
+                    "created": "2019-09-09"
+                },
+                {
+                    "fname": "hc/pokoriteli_tumana.jpg",
+                    "descr": "покорители тумана",
+                    "htags": ["разное","сквозь туман"],
+                    "created": "2019-09-09"
+                },
+                {
+                    "fname": "hc/skvoz_tuman.jpg",
+                    "descr": "сквозь туман",
+                    "htags": ["разное","сквозь туман"],
+                    "created": "2019-09-09"
+                },
+                {
+                    "fname": "hc/letter_60.jpg",
+                    "descr": "письмо",
+                    "htags": ["письма","сквозь туман"],
+                    "created": "2019-09-09"
+                },
+                {
+                    "fname": "hc/derizhabl.jpg",
+                    "descr": "ролик с дерижаблем",
+                    "htags": ["разное","сквозь туман"],
+                    "created": "2019-09-09"
+                },
+                {
+                    "fname": "hc/zast_reiden_stark.jpg",
+                    "descr": "заставка: Рейден Штарк",
+                    "htags": ["заставки","сквозь туман"],
+                    "created": "2019-09-09"
+                },
                {
                     "fname": "hc/sokrovisha_pescov.jpg",
                     "descr": "сокровища песков",
